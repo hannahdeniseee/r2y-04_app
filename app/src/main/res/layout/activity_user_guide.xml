@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".user_guide">
+    tools:context=".user_guide"
+    android:label = "User Guide">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
