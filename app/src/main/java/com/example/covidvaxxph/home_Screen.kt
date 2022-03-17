@@ -17,6 +17,12 @@ class home_Screen : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val imageButton2 = findViewById<ImageButton>(R.id.imageButton2)
+        imageButton2.setOnClickListener{
+            val intent = Intent(this, user_guide::class.java)
+            startActivity(intent)
+        }
+
     }
 
 
