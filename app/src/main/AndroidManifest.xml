@@ -10,14 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CovidVaxxPH">
         <activity
-            android:name=".vaxx_info"
+            android:name=".inter_active"
             android:exported="false" />
+        <activity
+            android:name=".vaxx_ph"
+            android:exported="false"
+            android:label="Vaccines in the Philippines" />
+        <activity
+            android:name=".vaxx_info"
+            android:exported="false"
+            android:label="COVID-19 Vaccine Information" />
         <activity
             android:name=".user_guide"
-            android:exported="false" />
+            android:exported="false"
+            android:label="User Guide" />
         <activity
             android:name=".home_Screen"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Home Screen" />
         <activity
             android:name=".splashscreen5"
             android:exported="false" />
