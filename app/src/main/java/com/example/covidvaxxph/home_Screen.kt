@@ -28,8 +28,15 @@ class home_Screen : AppCompatActivity() {
             val intent = Intent(this, vaxx_ph::class.java)
             startActivity(intent)
         }
+
+        val imageButton4 = findViewById<ImageButton>(R.id.imageButton4)
+        imageButton4.setOnClickListener{
+            val intent = Intent(this,interactive_page::class.java)
+            startActivity(intent)
+        }
+
         
-            
+
     }
 
 

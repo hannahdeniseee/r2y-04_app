@@ -10,8 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CovidVaxxPH">
         <activity
-            android:name=".inter_active"
+            android:name=".quiz"
             android:exported="false" />
+        <activity
+            android:name=".polls"
+            android:exported="false" />
+        <activity
+            android:name=".faqs"
+            android:exported="false" />
+        <activity
+            android:name=".interactive_page"
+            android:exported="false"
+            android:label="Interactive Page" />
         <activity
             android:name=".vaxx_ph"
             android:exported="false"
