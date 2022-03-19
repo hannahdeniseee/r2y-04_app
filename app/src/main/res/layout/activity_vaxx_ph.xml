@@ -1,9 +1,331 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".vaxx_ph">
+    android:background="@color/bg_color"
+    tools:context=".MainActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="50dp"
+        >
+
+        <!-- Table Heading -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            >
+
+            <TextView
+                android:id="@+id/brandName"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:background="@drawable/heading_cell"
+                android:padding="14sp"
+                android:text="@string/col1"
+                android:textColor="@android:color/white"
+                android:textSize="14dp"
+                android:fontFamily="@font/agrandir"
+                />
+
+            <TextView
+                android:id="@+id/technology"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:background="@drawable/heading_cell"
+                android:padding="14sp"
+                android:text="@string/col2"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:fontFamily="@font/agrandir"/>
+
+            <TextView
+                android:id="@+id/noOfDoses"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:background="@drawable/heading_cell"
+                android:padding="14sp"
+                android:text="@string/col3"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:fontFamily="@font/agrandir"/>
+
+
+        </TableRow>
+
+        <!-- Table Data -->
+        <TableRow>
+
+            <!-- Pfizer Data -->
+            <ImageButton
+                android:id="@+id/pfizerButton"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:background="@drawable/vax_brand_cell"
+                android:color="@color/black"
+                android:gravity="center_horizontal"
+                android:padding="2sp"
+                android:scaleType="centerInside"
+                android:textSize="14sp"
+                app:srcCompat="@drawable/pfizer"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:background="@drawable/vax_info_cell"
+                android:padding="14sp"
+                android:textSize="14sp"
+                android:text="@string/row1Tech"
+                android:textColor="@color/black"
+                android:fontFamily="@font/reg"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:background="@drawable/vax_info_cell"
+                android:padding="14sp"
+                android:textSize="11sp"
+                android:textColor="@color/black"
+                android:text="@string/row1Dose"
+                android:fontFamily="@font/reg"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <!-- AstraZeneca Data-->
+            <ImageButton
+                android:id="@+id/astraButton"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:background="@drawable/vax_brand_cell"
+                android:gravity="center_horizontal"
+                android:padding="2sp"
+                android:textSize="14sp"
+                android:color="@color/black"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/astrazeneca"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:background="@drawable/vax_info_cell"
+                android:padding="14sp"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:background="@drawable/vax_info_cell"
+                android:padding="14sp"
+                android:textSize="14sp"
+                />
+        </TableRow>
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/modernaButton"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:background="@drawable/vax_brand_cell"
+                android:gravity="center_horizontal"
+                android:padding="7sp"
+                android:textSize="14sp"
+                android:color="@color/black"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/moderna"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:background="@drawable/vax_info_cell"
+                android:padding="14sp"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:background="@drawable/vax_info_cell"
+                android:padding="14sp"
+                android:textSize="14sp"
+                />
+        </TableRow>
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/sinovacButton"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:background="@drawable/vax_brand_cell"
+                android:gravity="center_horizontal"
+                android:padding="5sp"
+                android:textSize="14sp"
+                android:color="@color/black"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/sinovac"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:background="@drawable/vax_info_cell"
+                android:padding="14sp"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:background="@drawable/vax_info_cell"
+                android:padding="14sp"
+                android:textSize="14sp"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/sputnikButton"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:background="@drawable/vax_brand_cell"
+                android:gravity="center_horizontal"
+                android:padding="5sp"
+                android:textSize="14sp"
+                android:color="@color/black"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/sputnik"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:background="@drawable/vax_info_cell"
+                android:gravity="center_horizontal"
+                android:padding="14sp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:background="@drawable/vax_info_cell"
+                android:padding="14sp"
+                android:textSize="14sp"
+                />
+        </TableRow>
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/janssenButton"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:background="@drawable/vax_brand_cell"
+                android:gravity="center_horizontal"
+                android:padding="5sp"
+                android:textSize="14sp"
+                android:color="@color/black"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/janssen"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:background="@drawable/vax_info_cell"
+                android:padding="14sp"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:background="@drawable/vax_info_cell"
+                android:padding="14sp"
+                android:textSize="14sp"
+                />
+        </TableRow>
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/novavaxButton"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:background="@drawable/vax_brand_cell"
+                android:gravity="center_horizontal"
+                android:padding="3sp"
+                android:textSize="14sp"
+                android:color="@color/black"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/novavax"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:background="@drawable/vax_info_cell"
+                android:padding="14sp"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:background="@drawable/vax_info_cell"
+                android:padding="14sp"
+                android:textSize="14sp"
+                />
+        </TableRow>
+
+
+    </TableLayout>
+</RelativeLayout>
