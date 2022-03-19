@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Covid Vaxx PH</string>
+    <string name="col1">Brand</string>
+    <string name="col2">Technology</string>
+    <string name="col3"># of Doses</string>
+    <string name="row1Brand">Pfizer</string>
+    <string name="row1Tech">mRNA</string>
+    <string name="row1Dose">2 (21 days)</string>
+    <string name="row2Brand">insert</string>
+    <string name="row2Tech">insert</string>
+    <string name="row2Dose">insert</string>
+    <string name="row3Brand">insert</string>
+    <string name="row3Tech">insert</string>
+    <string name="row3Dose">insert</string>
+    <string name="row4Brand">insert</string>
+    <string name="row4Tech">insert</string>
+    <string name="row4Dose">insert</string>
+    <string name="row5Brand">insert</string>
+    <string name="row5Tech">insert</string>
+    <string name="row5Dose">insert</string>
+    <string name="row6Brand">insert</string>
+    <string name="row6Tech">insert</string>
+    <string name="row6Dose">insert</string>
+    <string name="row7Brand">insert</string>
+    <string name="row7Tech">insert</string>
+    <string name="row7Dose">insert</string>
+    <string name="row8Brand">insert</string>
+    <string name="row8Tech">insert</string>
+    <string name="row8Dose">insert</string>
 </resources>
