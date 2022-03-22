@@ -2,7 +2,7 @@
     <string name="app_name">Covid Vaxx PH</string>
     <string name="col1">Brand</string>
     <string name="col2">Technology</string>
-    <string name="col3"># of Doses</string>
+    <string name="col3">No. of Doses</string>
     <string name="row1Brand">Pfizer</string>
     <string name="row1Tech">mRNA</string>
     <string name="row1Dose">2 (21 days)</string>
