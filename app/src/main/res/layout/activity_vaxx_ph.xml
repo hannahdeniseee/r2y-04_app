@@ -7,6 +7,16 @@
     android:background="@color/bg_color"
     tools:context=".MainActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background ="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        tools:ignore="MissingConstraints" />
+
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_navbutton"
+        android:icon="@drawable/home_navbutton"
+        android:title="Home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/ph_navbutton"
+        android:icon="@drawable/ph_navbutton"
+        android:title="PH Vaccines"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/user_navbutton"
+        android:icon="@drawable/user_navbutton"
+        android:title="User Guide"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/inter_navbutton"
+        android:icon="@drawable/inter_navbutton"
+        android:title="Interactive Screen"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/info_navbutton"
+        android:icon="@drawable/info_navbutton"
+        android:title="COVID-19 Vaccine Information"
+        app:showAsAction="always"
+    />
+</menu>

@@ -8,4 +8,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name = "bg_color">#F2FEFF</color>
+    <color name = "toolbar_color">#0D1251</color>
 </resources>
