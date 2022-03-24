@@ -3,28 +3,71 @@
     <string name="col1">Brand</string>
     <string name="col2">Technology</string>
     <string name="col3">No. of Doses</string>
+    <string name="col4">Frequency of Doses</string>
+    <string name="col5">Vaccine Efficacy</string>
+    <string name="col6">Common Adverse Effects</string>
+
+    <!-- Pfizer strings-->
     <string name="row1Brand">Pfizer</string>
     <string name="row1Tech">mRNA</string>
-    <string name="row1Dose">2 (21 days)</string>
-    <string name="row2Brand">insert</string>
-    <string name="row2Tech">insert</string>
-    <string name="row2Dose">insert</string>
-    <string name="row3Brand">insert</string>
-    <string name="row3Tech">insert</string>
-    <string name="row3Dose">insert</string>
-    <string name="row4Brand">insert</string>
-    <string name="row4Tech">insert</string>
-    <string name="row4Dose">insert</string>
-    <string name="row5Brand">insert</string>
-    <string name="row5Tech">insert</string>
-    <string name="row5Dose">insert</string>
-    <string name="row6Brand">insert</string>
-    <string name="row6Tech">insert</string>
-    <string name="row6Dose">insert</string>
-    <string name="row7Brand">insert</string>
-    <string name="row7Tech">insert</string>
-    <string name="row7Dose">insert</string>
-    <string name="row8Brand">insert</string>
-    <string name="row8Tech">insert</string>
-    <string name="row8Dose">insert</string>
+    <string name="row1Dose">2</string>
+    <string name="row1Freq">21 days apart</string>
+    <string name="row1VE">95% (≥ 16 y/o)\n100%(12-15 y/o)</string>
+    <string name="row1CAE">short-term mild-to-moderate pain at the injection site\nfatigue, headache</string>
+
+    <!-- AstraZeneca strings-->
+    <string name="row2Brand">AstraZeneca</string>
+    <string name="row2Tech">Viral Vector (non-replicating)</string>
+    <string name="row2Dose">2</string>
+    <string name="row2Freq">4-12 weeks apart</string>
+    <string name="row2VE">70.4% (vs. symptomatic COVID-19)\n100%(vs. severe COVID-19)</string>
+    <string name="row2CAE">pain and tenderness at the injection site\nfatigue, headache, feverishness, myalgia</string>
+
+    <!-- Moderna strings-->
+    <string name="row3Brand">Moderna</string>
+    <string name="row3Tech">mRNA</string>
+    <string name="row3Dose">2</string>
+    <string name="row3Freq">28 days apart</string>
+    <string name="row3VE">94.1% (vs. symptomatic COVID-19)\n100%(vs. severe COVID-19)</string>
+    <string name="row3CAE">pain, erythema, swelling at the injection site\naxillary lymphadenopathy\nfever, headache, myalgia, arthralgia, nausea, vomiting, chills</string>
+
+    <!-- Sinovac strings-->
+    <string name="row4Brand">Sinovac</string>
+    <string name="row4Tech">Inactivated virus</string>
+    <string name="row4Dose">2</string>
+    <string name="row4Freq">28 days apart</string>
+    <string name="row4VE">51% (vs. symptomatic COVID-19)\n100%(vs. severe COVID-19)</string>
+    <string name="row4CAE">local lymphadenopathy at the injection site\nallergic reaction (any component of the vaccine)\nconvulsion</string>
+
+    <!-- Sputnik V strings-->
+    <string name="row5Brand">Sputnik V</string>
+    <string name="row5Tech">Viral Vector (non-replicating)</string>
+    <string name="row5Dose">2</string>
+    <string name="row5Freq">3 weeks apart</string>
+    <string name="row5VE">91% (vs. symptomatic COVID-19)\n100%(vs. moderate-to-severe COVID-19)</string>
+    <string name="row5CAE">pain at the injection site, hyperthemia, swelling\nheadache, asthenia, muscle/joint pain, malaise, sore throat, diarrhea, rhinorrhea, loss of apetite, pain in the oropharynx, nasal congestion, colds, sneezing, cough</string>
+
+    <!-- Janssen strings-->
+    <string name="row6Brand">Janssen</string>
+    <string name="row6Tech">Viral Vector (non-replicating)</string>
+    <string name="row6Dose">1</string>
+    <string name="row6Freq">-</string>
+    <string name="row6VE">66.1-66.9% (vs. moderate-to-severe/critical COVID-19)\n100%(vs. severe COVID-19)</string>
+    <string name="row6CAE">- pain at the injection site, redness, swelling\ntiredness, headache, muscle pain, chills, fever, nausea</string>
+
+    <!-- Novavax strings-->
+    <string name="row7Brand">Novavax</string>
+    <string name="row7Tech">Protein subunit</string>
+    <string name="row7Dose">2</string>
+    <string name="row7Freq">21 days apart</string>
+    <string name="row7VE">90% (vs. infection)\n100%(vs. moderate-to-severe COVID-19)</string>
+    <string name="row7CAE">pain at the injection site, tenderness\nfatigue, muscle pain, headache, malaise</string>
+
+    <!-- Bharat strings-->
+    <string name="row8Brand">Bharat</string>
+    <string name="row8Tech">Inactivated virus</string>
+    <string name="row8Dose">2</string>
+    <string name="row8Freq">28 days apart</string>
+    <string name="row8VE">80.6% (vs PCR-confirmed symptomatic COVID-19)</string>
+    <string name="row8CAE">headache, fever, fatigue, body ache, abdominal pain, nausea, vomiting</string>
 </resources>
