@@ -9,11 +9,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/toolbar"
-        android:background ="?attr/colorPrimary"
+        android:background ="@color/toolbar_color"
         android:minHeight="?attr/actionBarSize"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         android:theme="@style/ThemeOverlay.AppCompat.Dark"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toBottomOf="parent" />
 
     <TextView
         android:layout_width="wrap_content"
