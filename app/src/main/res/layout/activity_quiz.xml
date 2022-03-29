@@ -135,7 +135,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:background="@color/purple_200"
-                tools:text="Submit"
+                android:text="Submit"
                 android:textSize="22sp"
                 android:textStyle="bold"/>
 
