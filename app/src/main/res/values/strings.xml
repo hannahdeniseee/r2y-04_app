@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Covid Vaxx PH</string>
+    <string name="quiz_header">Quiz Time!</string> // placeholder
+    <string name="quiz_question">What is love?</string> // placeholder
+
+    <!-- Table Header strings -->
     <string name="col1">Brand</string>
     <string name="col2">Technology</string>
     <string name="col3">No. of Doses</string>
