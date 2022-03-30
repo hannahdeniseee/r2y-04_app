@@ -20,6 +20,7 @@ class quiz : AppCompatActivity(), View.OnClickListener {
     private var mCurrentPosition: Int = 1
     private var mQuestionsList: ArrayList<Question>? = null
     private var mSelectedOptionPosition: Int = 0
+    private var mCorrectAnswers: Int = 0
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -152,7 +153,10 @@ class quiz : AppCompatActivity(), View.OnClickListener {
                             setQuestion()
                         }
                         else ->{
-                            Toast.makeText(this, "Quiz done!", Toast.LENGTH_SHORT).show()
+                            val intent = Intent(this, quiz_result::class.java)
+                            intent.putExtra(Constants.CORRECT_ANSWERS, mCorrectAnswers)
+                            intent.putExtra(Constants.TOTAL_QUESTIONS, mQuestionsList!!.size)
+                            startActivity(intent)
                         }
                     }
                 }
@@ -160,6 +164,9 @@ class quiz : AppCompatActivity(), View.OnClickListener {
                     val question = mQuestionsList?.get(mCurrentPosition-1)
                     if (question!!.answer != mSelectedOptionPosition){
                         answerView(mSelectedOptionPosition, R.drawable.incorrect_option_bg)
+                    }
+                    else {
+                        mCorrectAnswers++
                     }
                     answerView(question.answer, R.drawable.correct_option_bg)
 

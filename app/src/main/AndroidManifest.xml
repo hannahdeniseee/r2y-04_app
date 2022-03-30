@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CovidVaxxPH">
         <activity
+            android:name=".quiz_result"
+            android:exported="false" />
+        <activity
             android:name=".fil_home"
             android:exported="false"
-            android:theme="@style/Theme.Design.NoActionBar"/>
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".eng_fil"
             android:exported="false"
-            android:theme="@style/Theme.Design.NoActionBar"/>
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".quiz"
             android:exported="false"
