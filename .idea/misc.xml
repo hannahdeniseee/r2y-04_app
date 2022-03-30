@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_vaxx_ph.xml" value="0.27395833333333336" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/drawable/roundstyle.xml" value="0.1445" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_faqs.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_quiz.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_vaxx_ph.xml" value="0.33" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/pfizer_expanded.xml" value="0.22" />
         <entry key="app/src/main/res/drawable/correct_option_bg.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/default_option_bg.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/incorrect_option_bg.xml" value="0.2085" />
