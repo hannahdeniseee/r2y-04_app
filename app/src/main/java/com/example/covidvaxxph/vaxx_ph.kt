@@ -14,6 +14,70 @@ class vaxx_ph : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_vaxx_ph)
 
+        //Pfizer Window
+        val pfizerButton = findViewById<View>(R.id.pfizerButton)
+        pfizerButton.setOnClickListener{
+            var expanded = pfizer_expanded()
+
+            expanded.show(supportFragmentManager, "customDialog")
+        }
+
+        //AstraZeneca Window
+        val astraButton = findViewById<View>(R.id.astraButton)
+        astraButton.setOnClickListener{
+            var expanded = astra_expanded()
+
+            expanded.show(supportFragmentManager, "customDialog")
+        }
+
+        //Moderna Window
+        val modernaButton = findViewById<View>(R.id.modernaButton)
+        modernaButton.setOnClickListener{
+            var expanded = moderna_expanded()
+
+            expanded.show(supportFragmentManager, "customDialog")
+        }
+
+        //Sinovac Window
+        val sinovacButton = findViewById<View>(R.id.sinovacButton)
+        sinovacButton.setOnClickListener{
+            var expanded = sinovac_expanded()
+
+            expanded.show(supportFragmentManager, "customDialog")
+        }
+
+        //Sputnik Window
+        val sputnikButton = findViewById<View>(R.id.sputnikButton)
+        sputnikButton.setOnClickListener{
+            var expanded = sputnik_expanded()
+
+            expanded.show(supportFragmentManager, "customDialog")
+        }
+
+        //Janssen Window
+        val janssenButton = findViewById<View>(R.id.janssenButton)
+        janssenButton.setOnClickListener{
+            var expanded = janssen_expanded()
+
+            expanded.show(supportFragmentManager, "customDialog")
+        }
+
+        //Novavax Window
+        val novavaxButton = findViewById<View>(R.id.novavaxButton)
+        novavaxButton.setOnClickListener{
+            var expanded = novavax_expanded()
+
+            expanded.show(supportFragmentManager, "customDialog")
+        }
+
+        //BharatWindow
+        val bharatButton = findViewById<View>(R.id.bharatButton)
+        bharatButton.setOnClickListener{
+            var expanded = bharat_expanded()
+
+            expanded.show(supportFragmentManager, "customDialog")
+        }
+
         //Toolbar toolbar = findViewById(R.id.toolbar)
         val mtoolbar = findViewById<View>(R.id.toolbar) as Toolbar
         setSupportActionBar(mtoolbar)

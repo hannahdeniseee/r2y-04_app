@@ -29,9 +29,9 @@ class interactive_page : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val pollsButton = findViewById<ImageButton>(R.id.pollsButton)
+        val pollsButton = findViewById<ImageButton>(R.id.funFactsButton)
         pollsButton.setOnClickListener{
-            val intent = Intent(this, polls::class.java)
+            val intent = Intent(this, funfacts::class.java)
             startActivity(intent)
         }
     }

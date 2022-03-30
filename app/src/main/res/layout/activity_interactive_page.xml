@@ -52,7 +52,7 @@
                 app:srcCompat="@drawable/faqsbtn" />
 
             <ImageButton
-                android:id="@+id/pollsButton"
+                android:id="@+id/funFactsButton"
                 android:layout_width="315dp"
                 android:layout_height="175dp"
                 android:layout_marginStart="32dp"
@@ -60,7 +60,7 @@
                 android:layout_marginBottom="77dp"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/pollsbtn" />
+                app:srcCompat="@drawable/funfactsbtn" />
         </LinearLayout>
     </ScrollView>
 

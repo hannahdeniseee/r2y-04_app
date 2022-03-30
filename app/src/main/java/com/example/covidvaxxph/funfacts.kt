@@ -9,10 +9,10 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
 
-class polls : AppCompatActivity() {
+class funfacts : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_polls)
+        setContentView(R.layout.activity_funfacts)
 
         //Toolbar toolbar = findViewById(R.id.toolbar)
         val mtoolbar = findViewById<View>(R.id.toolbar) as Toolbar
