@@ -7,19 +7,6 @@
     tools:context=".home_Screen"
     android:background="@color/bg_color">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/agrandir"
-        android:text="Welcome!"
-        android:textColor="@color/black"
-        android:textSize="45dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15" />
-
     <ImageButton
         android:id="@+id/imageButton1"
         android:layout_width="180dp"
@@ -63,5 +50,14 @@
         app:layout_constraintStart_toEndOf="@+id/imageButton3"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/round_inter" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="339dp"
+        android:layout_height="217dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/home_header"
+        tools:layout_editor_absoluteY="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

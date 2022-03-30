@@ -10,17 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CovidVaxxPH">
         <activity
-            android:name=".quiz"
+            android:name=".fil_home"
             android:exported="false"
             android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity
+            android:name=".eng_fil"
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity
+            android:name=".quiz"
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".funfacts"
             android:exported="false"
-            android:theme="@style/Theme.Design.NoActionBar"/>
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".faqs"
             android:exported="false"
-            android:theme="@style/Theme.Design.NoActionBar"/>
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".interactive_page"
             android:exported="false"
@@ -32,31 +40,31 @@
         <activity
             android:name=".vaxx_info"
             android:exported="false"
-            android:theme="@style/Theme.Design.NoActionBar"/>
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".user_guide"
             android:exported="false"
-            android:theme="@style/Theme.Design.NoActionBar"/>
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".home_Screen"
             android:exported="false"
-            android:theme="@style/Theme.Design.NoActionBar"/>
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".splashscreen5"
             android:exported="false"
-            android:theme="@style/Theme.Design.NoActionBar"/>
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".splashscreen4"
             android:exported="false"
-            android:theme="@style/Theme.Design.NoActionBar"/>
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".splashscreen3"
             android:exported="false"
-            android:theme="@style/Theme.Design.NoActionBar"/>
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".splashscreen2"
             android:exported="false"
-            android:theme="@style/Theme.Design.NoActionBar"/>
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

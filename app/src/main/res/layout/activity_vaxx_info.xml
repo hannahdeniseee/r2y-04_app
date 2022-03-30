@@ -16,8 +16,11 @@
             android:id="@+id/imageView4"
             android:layout_width="345dp"
             android:layout_height="500dp"
+            android:layout_marginTop="36dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7"
             app:srcCompat="@drawable/vaxx_work_top"
             tools:ignore="MissingConstraints" />
 
@@ -26,6 +29,7 @@
             android:layout_width="345dp"
             android:layout_height="500dp"
             android:layout_marginStart="32dp"
+            android:layout_marginTop="12dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView4"
             app:srcCompat="@drawable/vaxx_work_next"
@@ -40,6 +44,16 @@
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             android:theme="@style/ThemeOverlay.AppCompat.Dark"
             app:layout_constraintBottom_toBottomOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/info_header"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="2dp"
+            tools:ignore="MissingConstraints" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
 

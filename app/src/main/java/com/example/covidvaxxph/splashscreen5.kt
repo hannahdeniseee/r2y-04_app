@@ -13,7 +13,7 @@ class splashscreen5 : AppCompatActivity() {
 
         handler = Handler()
         handler.postDelayed({
-            val intent = Intent(this, home_Screen::class.java)
+            val intent = Intent(this, eng_fil::class.java)
             startActivity(intent)
             overridePendingTransition(0,0)
             finish()
