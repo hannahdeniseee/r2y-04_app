@@ -9,6 +9,7 @@ import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.TextView
 import android.widget.Toast
@@ -21,6 +22,7 @@ class quiz : AppCompatActivity(), View.OnClickListener {
     private var mQuestionsList: ArrayList<Question>? = null
     private var mSelectedOptionPosition: Int = 0
     private var mCorrectAnswers: Int = 0
+    private var emptyAnswer: Int = 0 // mira bookmark pls no remove
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -53,7 +55,7 @@ class quiz : AppCompatActivity(), View.OnClickListener {
             findViewById<TextView>(R.id.quiz_submitbutton).text = "FINISH"
         }
         else {
-            findViewById<TextView>(R.id.quiz_submitbutton).text = "SUBMIT"
+            findViewById<TextView>(R.id.quiz_submitbutton).text = "SELECT AN ANSWER"
         }
 
         // var progressBar here
@@ -135,48 +137,59 @@ class quiz : AppCompatActivity(), View.OnClickListener {
         when(v?.id){
             R.id.quiz_option1 ->{
                 selectedOptionView(findViewById<TextView>(R.id.quiz_option1), 1)
+                setSubmitButton()
             }
             R.id.quiz_option2 ->{
                 selectedOptionView(findViewById<TextView>(R.id.quiz_option2), 2)
+                setSubmitButton()
             }
             R.id.quiz_option3 ->{
                 selectedOptionView(findViewById<TextView>(R.id.quiz_option3), 3)
+                setSubmitButton()
             }
             R.id.quiz_option4 ->{
                 selectedOptionView(findViewById<TextView>(R.id.quiz_option4), 4)
+                setSubmitButton()
             }
             R.id.quiz_submitbutton ->{
-                if(mSelectedOptionPosition == 0){
-                    mCurrentPosition++
-                    when{
-                        mCurrentPosition <= mQuestionsList!!.size ->{
-                            setQuestion()
-                        }
-                        else ->{
-                            val intent = Intent(this, quiz_result::class.java)
-                            intent.putExtra(Constants.CORRECT_ANSWERS, mCorrectAnswers)
-                            intent.putExtra(Constants.TOTAL_QUESTIONS, mQuestionsList!!.size)
-                            startActivity(intent)
-                        }
-                    }
-                }
+                if(emptyAnswer == 0)
                 else {
-                    val question = mQuestionsList?.get(mCurrentPosition-1)
-                    if (question!!.answer != mSelectedOptionPosition){
-                        answerView(mSelectedOptionPosition, R.drawable.incorrect_option_bg)
+                    findViewById<TextView>(R.id.quiz_submitbutton).text = "SELECT AN ANSWER"
+                    findViewById<Button>(R.id.quiz_submitbutton).setBackgroundColor(getResources().getColor(R.color.light_purple))
+                    if(mSelectedOptionPosition == 0){
+                        mCurrentPosition++
+                        emptyAnswer = 0
+                        when{
+                            mCurrentPosition <= mQuestionsList!!.size ->{
+                                setQuestion()
+                            }
+                            else ->{
+                                val intent = Intent(this, quiz_result::class.java)
+                                intent.putExtra(Constants.CORRECT_ANSWERS, mCorrectAnswers)
+                                intent.putExtra(Constants.TOTAL_QUESTIONS, mQuestionsList!!.size)
+                                startActivity(intent)
+                            }
+                        }
                     }
                     else {
-                        mCorrectAnswers++
-                    }
-                    answerView(question.answer, R.drawable.correct_option_bg)
+                        val question = mQuestionsList?.get(mCurrentPosition-1)
+                        findViewById<Button>(R.id.quiz_submitbutton).setBackgroundColor(getResources().getColor(R.color.purple_200))
+                        if (question!!.answer != mSelectedOptionPosition){
+                            answerView(mSelectedOptionPosition, R.drawable.incorrect_option_bg)
+                        }
+                        else {
+                            mCorrectAnswers++
+                        }
+                        answerView(question.answer, R.drawable.correct_option_bg)
 
-                    if (mCurrentPosition == mQuestionsList!!.size){
-                        findViewById<TextView>(R.id.quiz_submitbutton).text = "FINISH"
+                        if (mCurrentPosition == mQuestionsList!!.size){
+                            findViewById<TextView>(R.id.quiz_submitbutton).text = "FINISH"
+                        }
+                        else {
+                            findViewById<TextView>(R.id.quiz_submitbutton).text = "GO TO NEXT QUESTION"
+                        }
+                        mSelectedOptionPosition = 0
                     }
-                    else {
-                        findViewById<TextView>(R.id.quiz_submitbutton).text = "GO TO NEXT QUESTION"
-                    }
-                    mSelectedOptionPosition = 0
                 }
             }
         }
@@ -199,10 +212,16 @@ class quiz : AppCompatActivity(), View.OnClickListener {
         }
     }
 
+    private fun setSubmitButton() {
+        findViewById<TextView>(R.id.quiz_submitbutton).text = "SUBMIT"
+        findViewById<Button>(R.id.quiz_submitbutton).setBackgroundColor(getResources().getColor(R.color.purple_200))
+    }
+
     // selected option highlight
     private fun selectedOptionView(tv: TextView, selectedOptionNum: Int){
         defaultOptionsView()
         mSelectedOptionPosition = selectedOptionNum
+        emptyAnswer = 1
 
         tv.setTextColor(Color.parseColor("#363A43")) // if selected
         tv.setTypeface(tv.typeface, Typeface.BOLD)

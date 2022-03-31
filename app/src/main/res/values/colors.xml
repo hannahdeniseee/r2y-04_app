@@ -11,6 +11,7 @@
     <color name="light_purple">#C2CAEF</color> // quiz - selected option button
     <color name="lime_green">#9FF17C</color> // quiz - correct option
     <color name="coral_red">#FF5757</color> // quiz - incorrect option
+    <color name="dark_purple">#8089B2</color> // quiz - font color
     <color name = "bg_color">#F2FEFF</color>
     <color name = "toolbar_color">#AAC1DD</color>
 </resources>

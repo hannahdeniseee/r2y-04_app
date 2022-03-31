@@ -1,5 +1,8 @@
 package com.example.covidvaxxph
 
+import java.util.*
+import kotlin.collections.ArrayList
+
 object Constants {
 
     const val TOTAL_QUESTIONS: String = "total_questions"
@@ -38,6 +41,7 @@ object Constants {
         val question10 = Question(10, "Wahahahaha", "RIGHT", "WRONG", "WRONG", "WRONG", 1)
         questionsList.add(question10)
 
+        questionsList.shuffle()
         return questionsList
     }
 }

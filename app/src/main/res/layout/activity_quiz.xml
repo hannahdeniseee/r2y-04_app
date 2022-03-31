@@ -129,8 +129,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
-                android:background="@color/purple_200"
-                android:text="Submit"
+                android:background="@color/light_purple"
+                android:text="Select an Answer"
                 android:textSize="22sp"
                 android:textStyle="bold"/>
 
