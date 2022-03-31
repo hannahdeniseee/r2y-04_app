@@ -93,18 +93,6 @@
                         android:textColor="@android:color/white"
                         android:textSize="14sp" />
 
-                    <TextView
-                        android:id="@+id/vaxxEfficacy"
-                        android:layout_width="0dp"
-                        android:layout_height="60dp"
-                        android:layout_weight="0.75"
-                        android:background="@drawable/heading_cell"
-                        android:fontFamily="@font/agrandir"
-                        android:gravity="center_horizontal"
-                        android:padding="14sp"
-                        android:text="@string/col5"
-                        android:textColor="@android:color/white"
-                        android:textSize="14sp" />
 
 
                 </TableRow>
@@ -159,18 +147,6 @@
                         android:gravity="center_horizontal"
                         android:padding="14sp"
                         android:text="@string/row1Freq"
-                        android:textColor="@color/black"
-                        android:textSize="11sp" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="60dp"
-                        android:layout_weight="0.75"
-                        android:background="@drawable/vax_info_cell"
-                        android:fontFamily="@font/reg"
-                        android:gravity="center_horizontal"
-                        android:padding="14sp"
-                        android:text="@string/row1VE"
                         android:textColor="@color/black"
                         android:textSize="11sp" />
 
@@ -229,19 +205,6 @@
                         android:textColor="@color/black"
                         android:textSize="11sp" />
 
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="60dp"
-                        android:layout_weight="0.75"
-                        android:background="@drawable/vax_info_cell"
-                        android:fontFamily="@font/reg"
-                        android:gravity="center_horizontal"
-                        android:padding="14sp"
-                        android:text="@string/row2VE"
-                        android:textColor="@color/black"
-                        android:textSize="11sp" />
-
-
                 </TableRow>
 
                 <TableRow>
@@ -295,20 +258,6 @@
                         android:text="@string/row3Freq"
                         android:textColor="@color/black"
                         android:textSize="11sp" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="60dp"
-                        android:layout_weight="0.75"
-                        android:background="@drawable/vax_info_cell"
-                        android:fontFamily="@font/reg"
-                        android:gravity="center_horizontal"
-                        android:padding="14sp"
-                        android:text="@string/row3VE"
-                        android:textColor="@color/black"
-                        android:textSize="11sp" />
-
-
                 </TableRow>
 
                 <TableRow>
@@ -362,20 +311,6 @@
                         android:text="@string/row4Freq"
                         android:textColor="@color/black"
                         android:textSize="11sp" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="60dp"
-                        android:layout_weight="0.75"
-                        android:background="@drawable/vax_info_cell"
-                        android:fontFamily="@font/reg"
-                        android:gravity="center_horizontal"
-                        android:padding="14sp"
-                        android:text="@string/row4VE"
-                        android:textColor="@color/black"
-                        android:textSize="11sp" />
-
-
                 </TableRow>
 
                 <TableRow>
@@ -429,19 +364,6 @@
                         android:text="@string/row5Freq"
                         android:textColor="@color/black"
                         android:textSize="11sp" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="60dp"
-                        android:layout_weight="0.75"
-                        android:background="@drawable/vax_info_cell"
-                        android:fontFamily="@font/reg"
-                        android:gravity="center_horizontal"
-                        android:padding="14sp"
-                        android:text="@string/row5VE"
-                        android:textColor="@color/black"
-                        android:textSize="11sp" />
-
 
                 </TableRow>
 
@@ -497,19 +419,6 @@
                         android:textColor="@color/black"
                         android:textSize="11sp" />
 
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="60dp"
-                        android:layout_weight="0.75"
-                        android:background="@drawable/vax_info_cell"
-                        android:fontFamily="@font/reg"
-                        android:gravity="center_horizontal"
-                        android:padding="14sp"
-                        android:text="@string/row6VE"
-                        android:textColor="@color/black"
-                        android:textSize="11sp" />
-
-
                 </TableRow>
 
                 <TableRow>
@@ -561,18 +470,6 @@
                         android:gravity="center_horizontal"
                         android:padding="14sp"
                         android:text="@string/row7Freq"
-                        android:textColor="@color/black"
-                        android:textSize="11sp" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="60dp"
-                        android:layout_weight="0.75"
-                        android:background="@drawable/vax_info_cell"
-                        android:fontFamily="@font/reg"
-                        android:gravity="center_horizontal"
-                        android:padding="14sp"
-                        android:text="@string/row7VE"
                         android:textColor="@color/black"
                         android:textSize="11sp" />
 
@@ -629,20 +526,6 @@
                         android:text="@string/row8Freq"
                         android:textColor="@color/black"
                         android:textSize="11sp" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="60dp"
-                        android:layout_weight="0.75"
-                        android:background="@drawable/vax_info_cell"
-                        android:fontFamily="@font/reg"
-                        android:gravity="center_horizontal"
-                        android:padding="14sp"
-                        android:text="@string/row8VE"
-                        android:textColor="@color/black"
-                        android:textSize="11sp" />
-
-
 
                 </TableRow>
 
