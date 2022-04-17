@@ -42,7 +42,7 @@
                         android:fontFamily="@font/agrandir"
                         android:gravity="center_horizontal"
                         android:padding="14sp"
-                        android:text="@string/col1"
+                        android:text="@string/kol1"
                         android:textColor="@android:color/white"
                         android:textSize="14dp" />
 
@@ -55,7 +55,7 @@
                         android:fontFamily="@font/agrandir"
                         android:gravity="center_horizontal"
                         android:padding="14sp"
-                        android:text="@string/col2"
+                        android:text="@string/kol2"
                         android:textColor="@android:color/white"
                         android:textSize="14sp" />
 
@@ -68,7 +68,7 @@
                         android:fontFamily="@font/agrandir"
                         android:gravity="center_horizontal"
                         android:padding="14sp"
-                        android:text="@string/col3"
+                        android:text="@string/kol3"
                         android:textColor="@android:color/white"
                         android:textSize="14sp" />
 
@@ -81,7 +81,7 @@
                         android:fontFamily="@font/agrandir"
                         android:gravity="center_horizontal"
                         android:padding="14sp"
-                        android:text="@string/col4"
+                        android:text="@string/kol4"
                         android:textColor="@android:color/white"
                         android:textSize="14sp" />
 
