@@ -26,6 +26,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="79dp"
                 android:layout_marginEnd="33dp"
+                android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/pfizerbtn" />
@@ -38,6 +39,7 @@
                 android:layout_marginTop="24dp"
                 android:layout_marginEnd="33dp"
                 android:layout_marginBottom="27dp"
+                android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/astrabtn" />
@@ -49,6 +51,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginEnd="33dp"
                 android:layout_marginBottom="27dp"
+                android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/modernabtn" />
@@ -60,6 +63,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginEnd="33dp"
                 android:layout_marginBottom="27dp"
+                android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/sinovacbtn" />
@@ -71,6 +75,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginEnd="33dp"
                 android:layout_marginBottom="27dp"
+                android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/sputnikbtn" />
@@ -82,6 +87,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginEnd="33dp"
                 android:layout_marginBottom="27dp"
+                android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/janssenbtn" />
@@ -93,6 +99,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginEnd="33dp"
                 android:layout_marginBottom="27dp"
+                android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/novavaxbtn" />
@@ -104,6 +111,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginEnd="33dp"
                 android:layout_marginBottom="70dp"
+                android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/bharatbtn" />
