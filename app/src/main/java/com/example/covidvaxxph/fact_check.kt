@@ -6,41 +6,19 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import android.widget.ImageButton
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
 
-class interactive_page : AppCompatActivity() {
+class fact_check : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_interactive_page)
+        setContentView(R.layout.activity_fact_check)
+
         val mtoolbar = findViewById<View>(R.id.toolbar) as Toolbar
         setSupportActionBar(mtoolbar)
 
-        val quizButton = findViewById<ImageButton>(R.id.quizButton)
-        quizButton.setOnClickListener{
-            val intent = Intent(this, quiz::class.java)
-            startActivity(intent)
-        }
-
-        val faqButton = findViewById<ImageButton>(R.id.faqButton)
-        faqButton.setOnClickListener{
-            val intent = Intent(this, faqs::class.java)
-            startActivity(intent)
-        }
-
-        val pollsButton = findViewById<ImageButton>(R.id.funFactsButton)
-        pollsButton.setOnClickListener{
-            val intent = Intent(this, funfacts::class.java)
-            startActivity(intent)
-        }
-
-        val factsButton = findViewById<ImageButton>(R.id.factCheckButton)
-        factsButton.setOnClickListener{
-            val intent = Intent(this, fact_check::class.java)
-            startActivity(intent)
-        }
     }
+
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_bar,menu)
         return super.onCreateOptionsMenu(menu)

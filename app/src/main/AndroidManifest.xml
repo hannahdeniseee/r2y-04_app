@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CovidVaxxPH">
         <activity
+            android:name=".fact_check"
+            android:exported="false" />
+        <activity
             android:name=".inter_fil"
             android:exported="false" />
         <activity

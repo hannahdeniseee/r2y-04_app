@@ -536,6 +536,7 @@
         android:minHeight="?attr/actionBarSize"
         android:theme="@style/ThemeOverlay.AppCompat.Dark"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        android:layout_alignParentBottom="true"/>
+        android:layout_alignParentBottom="true"
+        tools:ignore="MissingConstraints" />
 
 </RelativeLayout>
