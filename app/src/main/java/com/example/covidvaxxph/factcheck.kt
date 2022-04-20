@@ -9,11 +9,10 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
 
-class fact_check : AppCompatActivity() {
+class factcheck : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fact_check)
-
         val mtoolbar = findViewById<View>(R.id.toolbar) as Toolbar
         setSupportActionBar(mtoolbar)
 

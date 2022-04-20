@@ -29,15 +29,15 @@ class interactive_page : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val pollsButton = findViewById<ImageButton>(R.id.funFactsButton)
-        pollsButton.setOnClickListener{
+        val ffButton = findViewById<ImageButton>(R.id.funFactsButton)
+        ffButton.setOnClickListener{
             val intent = Intent(this, funfacts::class.java)
             startActivity(intent)
         }
 
-        val factsButton = findViewById<ImageButton>(R.id.factCheckButton)
-        factsButton.setOnClickListener{
-            val intent = Intent(this, fact_check::class.java)
+        val fcButton = findViewById<ImageButton>(R.id.factCheckButton)
+        fcButton.setOnClickListener{
+            val intent = Intent(this, factcheck::class.java)
             startActivity(intent)
         }
     }
