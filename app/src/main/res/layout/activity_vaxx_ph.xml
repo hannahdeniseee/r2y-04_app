@@ -21,25 +21,25 @@
 
             <ImageButton
                 android:id="@+id/pfizerButton"
+                android:layout_gravity="center"
                 android:layout_width="315dp"
                 android:layout_height="175dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="79dp"
                 android:layout_marginEnd="33dp"
-                android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/pfizerbtn" />
 
             <ImageButton
                 android:id="@+id/astraButton"
+                android:layout_gravity="center"
                 android:layout_width="315dp"
                 android:layout_height="175dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="24dp"
                 android:layout_marginEnd="33dp"
                 android:layout_marginBottom="27dp"
-                android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/astrabtn" />
@@ -47,71 +47,71 @@
             <ImageButton
                 android:id="@+id/modernaButton"
                 android:layout_width="315dp"
+                android:layout_gravity="center"
                 android:layout_height="175dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginEnd="33dp"
                 android:layout_marginBottom="27dp"
-                android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/modernabtn" />
 
             <ImageButton
                 android:id="@+id/sinovacButton"
+                android:layout_gravity="center"
                 android:layout_width="315dp"
                 android:layout_height="175dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginEnd="33dp"
                 android:layout_marginBottom="27dp"
-                android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/sinovacbtn" />
 
             <ImageButton
                 android:id="@+id/sputnikButton"
+                android:layout_gravity="center"
                 android:layout_width="315dp"
                 android:layout_height="175dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginEnd="33dp"
                 android:layout_marginBottom="27dp"
-                android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/sputnikbtn" />
 
             <ImageButton
                 android:id="@+id/janssenButton"
+                android:layout_gravity="center"
                 android:layout_width="315dp"
                 android:layout_height="175dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginEnd="33dp"
                 android:layout_marginBottom="27dp"
-                android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/janssenbtn" />
 
             <ImageButton
                 android:id="@+id/novavaxButton"
+                android:layout_gravity="center"
                 android:layout_width="315dp"
                 android:layout_height="175dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginEnd="33dp"
                 android:layout_marginBottom="27dp"
-                android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/novavaxbtn" />
 
             <ImageButton
                 android:id="@+id/bharatButton"
+                android:layout_gravity="center"
                 android:layout_width="315dp"
                 android:layout_height="175dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginEnd="33dp"
                 android:layout_marginBottom="70dp"
-                android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/bharatbtn" />

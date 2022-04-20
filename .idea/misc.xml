@@ -3,19 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/drawable/heading_cell.xml" value="0.1445" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/drawable/user_navbutton.xml" value="0.1445" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/drawable/vax_info_cell.xml" value="0.1445" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_eng_fil.xml" value="0.12447916666666667" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_fact_check.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_fil_home.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_funfacts.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_home_screen.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_interactive_page.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_ph_fil.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_splashscreen2.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_user_fil.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_user_guide.xml" value="0.2713541666666667" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_vaxx_ph.xml" value="0.27395833333333336" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/pfizer_expanded.xml" value="0.25" />
         <entry key="app/src/main/res/drawable/correct_option_bg.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/default_option_bg.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/incorrect_option_bg.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/selected_option_bg.xml" value="0.1645" />
-        <entry key="app/src/main/res/layout/activity_fact_check.xml" value="0.45380401611328125" />
-        <entry key="app/src/main/res/layout/activity_faqs.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_faqs.xml" value="0.2453125" />
         <entry key="app/src/main/res/layout/activity_home_screen.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_inter_active.xml" value="0.2453125" />
-        <entry key="app/src/main/res/layout/activity_interactive_page.xml" value="0.27245508982035926" />
+        <entry key="app/src/main/res/layout/activity_interactive_page.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22916666666666666" />
         <entry key="app/src/main/res/layout/activity_polls.xml" value="0.23125" />
-        <entry key="app/src/main/res/layout/activity_quiz.xml" value="0.24998779296875" />
+        <entry key="app/src/main/res/layout/activity_quiz.xml" value="0.37851662404092073" />
         <entry key="app/src/main/res/layout/activity_quiz_result.xml" value="0.3388122558593749" />
         <entry key="app/src/main/res/layout/activity_splashscreen2.xml" value="0.18614130434782608" />
         <entry key="app/src/main/res/layout/activity_splashscreen3.xml" value="0.24322916666666666" />
@@ -23,8 +36,7 @@
         <entry key="app/src/main/res/layout/activity_splashscreen5.xml" value="0.24322916666666666" />
         <entry key="app/src/main/res/layout/activity_user_guide.xml" value="0.16168478260869565" />
         <entry key="app/src/main/res/layout/activity_vaxx_info.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_vaxx_ph.xml" value="0.25925925925925924" />
-        <entry key="app/src/main/res/layout/moderna_expanded.xml" value="0.48196475263954947" />
+        <entry key="app/src/main/res/layout/activity_vaxx_ph.xml" value="0.1" />
       </map>
     </option>
   </component>
