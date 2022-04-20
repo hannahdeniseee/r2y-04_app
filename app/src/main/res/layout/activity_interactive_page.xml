@@ -21,12 +21,12 @@
 
             <ImageButton
                 android:id="@+id/quizButton"
+                android:layout_gravity="center"
                 android:layout_width="315dp"
                 android:layout_height="175dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="79dp"
                 android:layout_marginEnd="33dp"
-                android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/quizbtn" />
