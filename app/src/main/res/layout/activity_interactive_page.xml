@@ -57,7 +57,7 @@
                 app:srcCompat="@drawable/funfactsbtn"/>
 
             <ImageButton
-                android:id="@+id/factCheckButton"
+                android:id="@+id/checkButton"
                 android:layout_gravity="center"
                 android:layout_width="315dp"
                 android:layout_height="175dp"

@@ -35,9 +35,9 @@ class interactive_page : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val fcButton = findViewById<ImageButton>(R.id.factCheckButton)
+        val fcButton = findViewById<ImageButton>(R.id.checkButton)
         fcButton.setOnClickListener{
-            val intent = Intent(this, factcheck::class.java)
+            val intent = Intent(this, factcheck_new::class.java)
             startActivity(intent)
         }
     }
