@@ -5,59 +5,60 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".home_Screen"
-    android:background="@color/bg_color">
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="339dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home_header" />
 
     <ImageButton
         android:id="@+id/imageButton1"
         android:layout_width="180dp"
         android:layout_height="190dp"
-        android:layout_marginTop="236dp"
+        android:layout_marginTop="224dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintHorizontal_bias="0.112"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/round_guide" />
+        app:srcCompat="@drawable/round_guide_btn" />
 
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="180dp"
         android:layout_height="190dp"
-        android:layout_marginTop="236dp"
+        android:layout_marginTop="224dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/round_info" />
+        app:srcCompat="@drawable/round_info_btn" />
 
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="180dp"
         android:layout_height="190dp"
-        android:layout_marginTop="460dp"
+        android:layout_marginTop="452dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintHorizontal_bias="0.112"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/round_ph" />
+        app:srcCompat="@drawable/round_ph_btn" />
 
     <ImageButton
         android:id="@+id/imageButton4"
         android:layout_width="180dp"
         android:layout_height="190dp"
-        android:layout_marginTop="460dp"
+        android:layout_marginTop="452dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageButton3"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/round_inter" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="339dp"
-        android:layout_height="217dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/home_header"
-        tools:layout_editor_absoluteY="16dp" />
+        app:srcCompat="@drawable/round_inter_btn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

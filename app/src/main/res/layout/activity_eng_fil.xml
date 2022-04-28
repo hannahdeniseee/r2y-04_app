@@ -14,9 +14,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/eng_fil_header"
+        app:srcCompat="@drawable/eng_fil_header_text"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="52dp"/>
+        tools:layout_editor_absoluteY="68dp" />
 
     <ImageButton
         android:id="@+id/eng_button"
