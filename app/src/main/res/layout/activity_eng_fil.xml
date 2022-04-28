@@ -5,23 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".eng_fil"
-    android:background="@color/bg_color">
+    android:background="@color/white">.
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/eng_fil_header"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="16dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="52dp"/>
 
     <ImageButton
         android:id="@+id/eng_button"
-        android:layout_width="389dp"
+        android:layout_width="380dp"
         android:layout_height="224dp"
         android:layout_marginTop="168dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/eng_button" />
@@ -30,8 +32,8 @@
         android:id="@+id/fil_button"
         android:layout_width="378dp"
         android:layout_height="253dp"
-        android:layout_marginTop="428dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/fil_button" />
