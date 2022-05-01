@@ -173,7 +173,7 @@ class quiz : AppCompatActivity(), View.OnClickListener {
                     }
                     else {
                         val question = mQuestionsList?.get(mCurrentPosition-1)
-                        findViewById<Button>(R.id.quiz_submitbutton).setBackgroundColor(getResources().getColor(R.color.purple_200))
+                        findViewById<Button>(R.id.quiz_submitbutton).setBackgroundColor(getResources().getColor(R.color.submit_color))
                         if (question!!.answer != mSelectedOptionPosition){
                             answerView(mSelectedOptionPosition, R.drawable.incorrect_option_bg)
                         }
@@ -214,7 +214,7 @@ class quiz : AppCompatActivity(), View.OnClickListener {
 
     private fun setSubmitButton() {
         findViewById<TextView>(R.id.quiz_submitbutton).text = "SUBMIT"
-        findViewById<Button>(R.id.quiz_submitbutton).setBackgroundColor(getResources().getColor(R.color.purple_200))
+        findViewById<Button>(R.id.quiz_submitbutton).setBackgroundColor(getResources().getColor(R.color.submit_color))
     }
 
     // selected option highlight

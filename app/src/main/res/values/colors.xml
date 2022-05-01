@@ -7,11 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="light_cyan">#B2E4E8</color> // quiz - default option button
-    <color name="light_purple">#C2CAEF</color> // quiz - selected option button
+    <color name="light_cyan">#CBE9FF</color> // quiz - default option button
+    <color name="light_purple">#88C9D4</color> // quiz - select an option button
+    <color name="submit_color">#48A5B7</color> // quiz - submit button color
     <color name="lime_green">#9FF17C</color> // quiz - correct option
     <color name="coral_red">#FF5757</color> // quiz - incorrect option
-    <color name="dark_purple">#8089B2</color> // quiz - font color
+    <color name="dark_cyan">#328EA0</color> // quiz - font color
     <color name = "bg_color">#F2FEFF</color>
     <color name = "toolbar_color">#AAC1DD</color>
 </resources>
