@@ -29,7 +29,7 @@
                 android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/pfizerbtn" />
+                app:srcCompat="@drawable/pfizer_btn" />
 
             <ImageButton
                 android:id="@+id/astraButton"
@@ -42,7 +42,7 @@
                 android:layout_marginBottom="27dp"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/astrabtn" />
+                app:srcCompat="@drawable/astrazeneca_btn" />
 
             <ImageButton
                 android:id="@+id/modernaButton"
@@ -54,7 +54,7 @@
                 android:layout_marginBottom="27dp"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/modernabtn" />
+                app:srcCompat="@drawable/moderna_btn" />
 
             <ImageButton
                 android:id="@+id/sinovacButton"
@@ -66,7 +66,7 @@
                 android:layout_marginBottom="27dp"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/sinovacbtn" />
+                app:srcCompat="@drawable/sinovac_btn" />
 
             <ImageButton
                 android:id="@+id/sputnikButton"
@@ -78,7 +78,7 @@
                 android:layout_marginBottom="27dp"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/sputnikbtn" />
+                app:srcCompat="@drawable/sputnik_btn" />
 
             <ImageButton
                 android:id="@+id/janssenButton"
@@ -90,7 +90,7 @@
                 android:layout_marginBottom="27dp"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/janssenbtn" />
+                app:srcCompat="@drawable/janssen_btn" />
 
             <ImageButton
                 android:id="@+id/novavaxButton"
@@ -102,7 +102,7 @@
                 android:layout_marginBottom="27dp"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/novavaxbtn" />
+                app:srcCompat="@drawable/novavax_btn" />
 
             <ImageButton
                 android:id="@+id/bharatButton"
@@ -114,7 +114,7 @@
                 android:layout_marginBottom="70dp"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/bharatbtn" />
+                app:srcCompat="@drawable/bharat_btn" />
         </LinearLayout>
     </ScrollView>
 
