@@ -30,7 +30,7 @@
                     android:textColor="@color/black"
                     android:textSize="32sp"
                     android:text="@string/quiz_header"
-                    android:fontFamily="@font/agrandir"
+                    android:fontFamily="@font/ralewayheavy"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -41,7 +41,8 @@
                     android:gravity="center"
                     android:textColor="@color/black"
                     android:textSize="22sp"
-                    android:fontFamily="@font/agrandir"
+                    android:fontFamily="@font/raleway"
+                    android:textStyle="bold"
                     android:text="@string/quiz_question"/>
 
                 <LinearLayout
@@ -71,7 +72,7 @@
                         android:padding="15dp"
                         android:textColor="@color/black"
                         android:textSize="14sp"
-                        android:fontFamily="@font/agrandir"
+                        android:fontFamily="@font/ralewayheavy"
                         tools:text="0/10"/>
 
                 </LinearLayout>
@@ -86,6 +87,7 @@
                 android:padding="15dp"
                 android:textColor="@color/black"
                 android:textSize="18sp"
+                android:fontFamily="@font/opensans"
                 tools:text="Apple"/>
 
             <TextView
@@ -98,6 +100,7 @@
                 android:padding="15dp"
                 android:textColor="@color/black"
                 android:textSize="18sp"
+                android:fontFamily="@font/opensans"
                 tools:text="Not Apple"/>
 
             <TextView
@@ -110,6 +113,7 @@
                 android:padding="15dp"
                 android:textColor="@color/black"
                 android:textSize="18sp"
+                android:fontFamily="@font/opensans"
                 tools:text="Not Not Apple"/>
 
             <TextView
@@ -122,6 +126,7 @@
                 android:padding="15dp"
                 android:textColor="@color/black"
                 android:textSize="18sp"
+                android:fontFamily="@font/opensans"
                 tools:text="Not Not Not Apple"/>
 
             <Button
