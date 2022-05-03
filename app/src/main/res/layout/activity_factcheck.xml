@@ -23,16 +23,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="450dp"
                 android:layout_marginTop="15dp"
-                app:srcCompat="@drawable/fact_1_new"
+                app:srcCompat="@drawable/fact_check_1"
                 tools:ignore="MissingConstraints" />
 
             <ImageView
                 android:id="@+id/imageView10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
                 android:layout_marginTop="450dp"
+                android:layout_marginEnd="1dp"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/fact_2"
+                app:srcCompat="@drawable/fact_check_2"
                 tools:ignore="MissingConstraints"
                 tools:layout_editor_absoluteX="0dp" />
 
@@ -40,7 +42,7 @@
                 android:id="@+id/backButton"
                 android:layout_width="65dp"
                 android:layout_height="30dp"
-                android:layout_marginTop="45dp"
+                android:layout_marginTop="35dp"
                 android:layout_marginEnd="319dp"
                 app:srcCompat="@drawable/fact_1_btn" />
 
