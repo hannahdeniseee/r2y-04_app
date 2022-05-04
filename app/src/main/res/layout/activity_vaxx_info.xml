@@ -17,10 +17,11 @@
             android:layout_width="405dp"
             android:layout_height="569dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/vaxx_info1"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="45dp" />
+            tools:layout_editor_absoluteY="63dp" />
 
         <ImageView
             android:id="@+id/imageView5"
@@ -45,11 +46,44 @@
             android:id="@+id/imageView7"
             android:layout_width="400dp"
             android:layout_height="450dp"
-            android:paddingBottom="40dp"
             app:layout_constraintTop_toBottomOf="@+id/imageView6"
             app:srcCompat="@drawable/vaxx_info3"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="-5dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7"
+            app:srcCompat="@drawable/type_1"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="400dp"
+            android:layout_height="700dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8"
+            app:srcCompat="@drawable/type_2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="3dp" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="400dp"
+            android:layout_height="700dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9"
+            app:srcCompat="@drawable/type_3"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-74dp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="400dp"
+            android:layout_height="355dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10"
+            app:srcCompat="@drawable/type_4"
+            tools:ignore="MissingConstraints" />
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
