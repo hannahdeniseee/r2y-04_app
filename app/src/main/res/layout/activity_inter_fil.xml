@@ -7,11 +7,12 @@
     android:background="@color/bg_color"
     tools:context=".inter_fil">
 
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-204dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -20,6 +21,7 @@
 
             <ImageButton
                 android:id="@+id/quizButton"
+                android:layout_gravity="center"
                 android:layout_width="315dp"
                 android:layout_height="175dp"
                 android:layout_marginStart="32dp"
@@ -27,32 +29,48 @@
                 android:layout_marginEnd="33dp"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/quizbtn" />
+                app:srcCompat="@drawable/fil_inter_quizbtn" />
 
             <ImageButton
                 android:id="@+id/faqButton"
                 android:layout_width="315dp"
-                android:layout_height="175dp"
+                android:layout_height="190dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="24dp"
                 android:layout_marginEnd="33dp"
-                android:layout_marginBottom="27dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/faqsbtn" />
+                app:srcCompat="@drawable/fil_inter_faqsbtn" />
 
             <ImageButton
                 android:id="@+id/funFactsButton"
                 android:layout_width="315dp"
-                android:layout_height="175dp"
+                android:layout_height="190dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginEnd="33dp"
-                android:layout_marginBottom="77dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/funfactsbtn" />
+                app:srcCompat="@drawable/fil_inter_funfactbtn"/>
+
+            <ImageButton
+                android:id="@+id/checkButton"
+                android:layout_width="315dp"
+                android:layout_height="190dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="33dp"
+                android:layout_marginBottom="70dp"
+                android:layout_gravity="center"
+                android:background="@color/bg_color"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/fil_inter_factbtn" />
         </LinearLayout>
+
     </ScrollView>
+
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
