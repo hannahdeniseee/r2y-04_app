@@ -14,12 +14,14 @@ class eng_fil : AppCompatActivity() {
         eng_button.setOnClickListener{
             val intent = Intent(this, home_Screen::class.java)
             startActivity(intent)
+            engFilCounter.counter = "english"
         }
 
         val fil_button = findViewById<ImageButton>(R.id.fil_button)
         fil_button.setOnClickListener{
             val intent = Intent(this, fil_home::class.java)
             startActivity(intent)
+            engFilCounter.counter = "filipino"
         }
     }
 
