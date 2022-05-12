@@ -91,29 +91,29 @@ class ph_fil : AppCompatActivity() {
         val id = item?.itemId
         if (id == R.id.home_navbutton) {
             Toast.makeText(this, item.title.toString(), Toast.LENGTH_LONG).show()
-            val intent = Intent(this, home_Screen::class.java)
+            val intent = Intent(this, fil_home::class.java)
             startActivity(intent)
         }
 
         if (id == R.id.inter_navbutton) {
             Toast.makeText(this, item.title.toString(), Toast.LENGTH_LONG).show()
-            val intent = Intent(this, interactive_page::class.java)
+            val intent = Intent(this, inter_fil::class.java)
             startActivity(intent)
         }
         if (id == R.id.ph_navbutton) {
             Toast.makeText(this, item.title.toString(), Toast.LENGTH_LONG).show()
-            val intent = Intent(this, vaxx_ph::class.java)
+            val intent = Intent(this, ph_fil::class.java)
             startActivity(intent)
         }
-        if (id == R.id.user_navbutton) {
+        if (id == R.id.user_navbutton){
             Toast.makeText(this, item.title.toString(), Toast.LENGTH_LONG).show()
-            val intent = Intent(this, user_guide::class.java)
+            val intent = Intent(this, user_fil::class.java)
             startActivity(intent)
         }
 
-        if (id == R.id.info_navbutton) {
+        if (id == R.id.info_navbutton){
             Toast.makeText(this, item.title.toString(), Toast.LENGTH_LONG).show()
-            val intent = Intent(this, vaxx_info::class.java)
+            val intent = Intent(this, info_fil::class.java)
             startActivity(intent)
         }
         return super.onOptionsItemSelected(item)
