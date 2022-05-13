@@ -26,7 +26,7 @@ class inter_fil : AppCompatActivity() {
 
         val faqButton = findViewById<ImageButton>(R.id.faqButton)
         faqButton.setOnClickListener{
-            val intent = Intent(this, faqs::class.java)
+            val intent = Intent(this, faq_fil::class.java)
             startActivity(intent)
         }
 

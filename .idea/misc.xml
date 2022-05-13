@@ -28,6 +28,7 @@
         <entry key="app/src/main/res/drawable/incorrect_option_bg.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/selected_option_bg.xml" value="0.1645" />
         <entry key="app/src/main/res/layout/activity_fact_check.xml" value="0.45380401611328125" />
+        <entry key="app/src/main/res/layout/activity_faq_fil.xml" value="0.24583333333333332" />
         <entry key="app/src/main/res/layout/activity_faqs.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_home_screen.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_inter_active.xml" value="0.2453125" />
