@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".home_Screen"
-    android:background="@color/bg_color">
+    android:background="@color/white">
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="339dp"
         android:layout_height="200dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -23,10 +23,10 @@
         android:layout_height="190dp"
         android:layout_marginTop="224dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintHorizontal_bias="0.069"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fil_guide_btn" />
+        app:srcCompat="@drawable/gabay_btn" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -36,7 +36,7 @@
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fil_info_btn" />
+        app:srcCompat="@drawable/impormasyon_btn" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -44,10 +44,10 @@
         android:layout_height="190dp"
         android:layout_marginTop="452dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintHorizontal_bias="0.069"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fil_ph_btn" />
+        app:srcCompat="@drawable/covid_btn" />
 
     <ImageButton
         android:id="@+id/imageButton4"
@@ -59,6 +59,6 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageButton3"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fil_inter_btn" />
+        app:srcCompat="@drawable/interaktib_btn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
