@@ -13,65 +13,65 @@ class ph_fil : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ph_fil)
-        val pfizerButton = findViewById<View>(R.id.pfizerButton)
-        pfizerButton.setOnClickListener {
-            var expanded = pfizer_expanded()
+        val pfizerFilButton = findViewById<View>(R.id.pfizerFilButton)
+        pfizerFilButton.setOnClickListener {
+            var expanded = pfizer_fil_expanded()
 
             expanded.show(supportFragmentManager, "customDialog")
         }
 
         //AstraZeneca Window
-        val astraButton = findViewById<View>(R.id.astraButton)
-        astraButton.setOnClickListener {
-            var expanded = astra_expanded()
+        val astraFilButton = findViewById<View>(R.id.astraFilButton)
+        astraFilButton.setOnClickListener {
+            var expanded = astra_fil_expanded()
 
             expanded.show(supportFragmentManager, "customDialog")
         }
 
         //Moderna Window
-        val modernaButton = findViewById<View>(R.id.modernaButton)
-        modernaButton.setOnClickListener {
-            var expanded = moderna_expanded()
+        val modernaFilButton = findViewById<View>(R.id.modernaFilButton)
+        modernaFilButton.setOnClickListener {
+            var expanded = moderna_fil_expanded()
 
             expanded.show(supportFragmentManager, "customDialog")
         }
 
         //Sinovac Window
-        val sinovacButton = findViewById<View>(R.id.sinovacButton)
-        sinovacButton.setOnClickListener {
-            var expanded = sinovac_expanded()
+        val sinovacFilButton = findViewById<View>(R.id.sinovacFilButton)
+        sinovacFilButton.setOnClickListener {
+            var expanded = sinovac_fil_expanded()
 
             expanded.show(supportFragmentManager, "customDialog")
         }
 
         //Sputnik Window
-        val sputnikButton = findViewById<View>(R.id.sputnikButton)
-        sputnikButton.setOnClickListener {
-            var expanded = sputnik_expanded()
+        val sputnikFilButton = findViewById<View>(R.id.sputnikFilButton)
+        sputnikFilButton.setOnClickListener {
+            var expanded = sputnik_fil_expanded()
 
             expanded.show(supportFragmentManager, "customDialog")
         }
 
         //Janssen Window
-        val janssenButton = findViewById<View>(R.id.janssenButton)
-        janssenButton.setOnClickListener {
-            var expanded = janssen_expanded()
+        val janssenFilButton = findViewById<View>(R.id.janssenFilButton)
+        janssenFilButton.setOnClickListener {
+            var expanded = janssen_fil_expanded()
 
             expanded.show(supportFragmentManager, "customDialog")
         }
 
         //Novavax Window
-        val novavaxButton = findViewById<View>(R.id.novavaxButton)
-        novavaxButton.setOnClickListener {
-            var expanded = novavax_expanded()
+        val novavaxFilButton = findViewById<View>(R.id.novavaxFilButton)
+        novavaxFilButton.setOnClickListener {
+            var expanded = novavax_fil_expanded()
 
             expanded.show(supportFragmentManager, "customDialog")
         }
 
         //BharatWindow
-        val bharatButton = findViewById<View>(R.id.bharatButton)
-        bharatButton.setOnClickListener {
-            var expanded = bharat_expanded()
+        val bharatFilButton = findViewById<View>(R.id.bharatFilButton)
+        bharatFilButton.setOnClickListener {
+            var expanded = bharat_fil_expanded()
 
             expanded.show(supportFragmentManager, "customDialog")
         }

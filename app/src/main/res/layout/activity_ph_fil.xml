@@ -20,7 +20,7 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/pfizerButton"
+                android:id="@+id/pfizerFilButton"
                 android:layout_width="315dp"
                 android:layout_height="175dp"
                 android:layout_marginStart="32dp"
@@ -32,7 +32,7 @@
                 app:srcCompat="@drawable/pfizer_btn" />
 
             <ImageButton
-                android:id="@+id/astraButton"
+                android:id="@+id/astraFilButton"
                 android:layout_gravity="center"
                 android:layout_width="315dp"
                 android:layout_height="175dp"
@@ -45,7 +45,7 @@
                 app:srcCompat="@drawable/astrazeneca_btn" />
 
             <ImageButton
-                android:id="@+id/modernaButton"
+                android:id="@+id/modernaFilButton"
                 android:layout_width="315dp"
                 android:layout_gravity="center"
                 android:layout_height="175dp"
@@ -57,7 +57,7 @@
                 app:srcCompat="@drawable/moderna_btn" />
 
             <ImageButton
-                android:id="@+id/sinovacButton"
+                android:id="@+id/sinovacFilButton"
                 android:layout_gravity="center"
                 android:layout_width="315dp"
                 android:layout_height="175dp"
@@ -69,7 +69,7 @@
                 app:srcCompat="@drawable/sinovac_btn" />
 
             <ImageButton
-                android:id="@+id/sputnikButton"
+                android:id="@+id/sputnikFilButton"
                 android:layout_gravity="center"
                 android:layout_width="315dp"
                 android:layout_height="175dp"
@@ -81,7 +81,7 @@
                 app:srcCompat="@drawable/sputnik_btn" />
 
             <ImageButton
-                android:id="@+id/janssenButton"
+                android:id="@+id/janssenFilButton"
                 android:layout_gravity="center"
                 android:layout_width="315dp"
                 android:layout_height="175dp"
@@ -93,7 +93,7 @@
                 app:srcCompat="@drawable/janssen_btn" />
 
             <ImageButton
-                android:id="@+id/novavaxButton"
+                android:id="@+id/novavaxFilButton"
                 android:layout_gravity="center"
                 android:layout_width="315dp"
                 android:layout_height="175dp"
@@ -105,7 +105,7 @@
                 app:srcCompat="@drawable/novavax_btn" />
 
             <ImageButton
-                android:id="@+id/bharatButton"
+                android:id="@+id/bharatFilButton"
                 android:layout_gravity="center"
                 android:layout_width="315dp"
                 android:layout_height="175dp"
