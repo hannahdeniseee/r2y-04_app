@@ -32,7 +32,13 @@ class inter_fil : AppCompatActivity() {
 
         val pollsButton = findViewById<ImageButton>(R.id.funFactsButton)
         pollsButton.setOnClickListener{
-            val intent = Intent(this, funfacts::class.java)
+            val intent = Intent(this, funfacts_fil::class.java)
+            startActivity(intent)
+        }
+
+        val checkButton = findViewById<ImageButton>(R.id.checkButton)
+        checkButton.setOnClickListener{
+            val intent = Intent(this, factcheck_fil::class.java)
             startActivity(intent)
         }
     }
