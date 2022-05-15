@@ -52,10 +52,12 @@ class quiz : AppCompatActivity(), View.OnClickListener {
         defaultOptionsView()
 
         if(mCurrentPosition == mQuestionsList!!.size){
-            findViewById<TextView>(R.id.quiz_submitbutton).text = "FINISH"
+            if (engFilCounter.counter == "english") findViewById<TextView>(R.id.quiz_submitbutton).text = "FINISH"
+            else if (engFilCounter.counter == "filipino") findViewById<TextView>(R.id.quiz_submitbutton).text = "TAPUSIN"
         }
         else {
-            findViewById<TextView>(R.id.quiz_submitbutton).text = "SELECT AN ANSWER"
+            if (engFilCounter.counter == "english") findViewById<TextView>(R.id.quiz_submitbutton).text = "SELECT AN ANSWER"
+            else if (engFilCounter.counter == "filipino") findViewById<TextView>(R.id.quiz_submitbutton).text = "PUMILI NG SAGOT"
         }
 
         // var progressBar here
@@ -154,7 +156,8 @@ class quiz : AppCompatActivity(), View.OnClickListener {
             R.id.quiz_submitbutton ->{
                 if(emptyAnswer == 0)
                 else {
-                    findViewById<TextView>(R.id.quiz_submitbutton).text = "SELECT AN ANSWER"
+                    if (engFilCounter.counter == "english") findViewById<TextView>(R.id.quiz_submitbutton).text = "SELECT AN ANSWER"
+                    else if (engFilCounter.counter == "filipino") findViewById<TextView>(R.id.quiz_submitbutton).text = "PUMILI NG SAGOT"
                     findViewById<Button>(R.id.quiz_submitbutton).setBackgroundColor(getResources().getColor(R.color.light_purple))
                     if(mSelectedOptionPosition == 0){
                         mCurrentPosition++
@@ -183,10 +186,12 @@ class quiz : AppCompatActivity(), View.OnClickListener {
                         answerView(question.answer, R.drawable.correct_option_bg)
 
                         if (mCurrentPosition == mQuestionsList!!.size){
-                            findViewById<TextView>(R.id.quiz_submitbutton).text = "FINISH"
+                            if (engFilCounter.counter == "english") findViewById<TextView>(R.id.quiz_submitbutton).text = "FINISH"
+                            else if (engFilCounter.counter == "filipino") findViewById<TextView>(R.id.quiz_submitbutton).text = "TAPUSIN"
                         }
                         else {
-                            findViewById<TextView>(R.id.quiz_submitbutton).text = "GO TO NEXT QUESTION"
+                            if (engFilCounter.counter == "english") findViewById<TextView>(R.id.quiz_submitbutton).text = "GO TO NEXT QUESTION"
+                            else if (engFilCounter.counter == "filipino") findViewById<TextView>(R.id.quiz_submitbutton).text = "SUNOD NA TANONG"
                         }
                         mSelectedOptionPosition = 0
                     }
@@ -213,7 +218,8 @@ class quiz : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun setSubmitButton() {
-        findViewById<TextView>(R.id.quiz_submitbutton).text = "SUBMIT"
+        if (engFilCounter.counter == "english") findViewById<TextView>(R.id.quiz_submitbutton).text = "SUBMIT"
+        else if (engFilCounter.counter == "filipino") findViewById<TextView>(R.id.quiz_submitbutton).text = "IPASA"
         findViewById<Button>(R.id.quiz_submitbutton).setBackgroundColor(getResources().getColor(R.color.submit_color))
     }
 
