@@ -3,49 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_factcheck.xml" value="0.27395833333333336" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_fil_home.xml" value="0.27395833333333336" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_funfacts.xml" value="0.25" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_home_screen.xml" value="0.25" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_info_fil.xml" value="0.27395833333333336" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_interactive_page.xml" value="0.13323201621073963" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_main.xml" value="0.27395833333333336" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_ph_fil.xml" value="0.13323201621073963" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_quiz.xml" value="0.21" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_splashscreen5.xml" value="0.27395833333333336" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_user_fil.xml" value="0.246485473289597" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_user_guide.xml" value="0.25" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_vaxx_info.xml" value="0.27395833333333336" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/activity_vaxx_ph.xml" value="0.27395833333333336" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/astra_expanded.xml" value="0.13500506585612967" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/astra_fil_expanded.xml" value="0.278125" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/bharat_expanded.xml" value="0.13500506585612967" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/bharat_fil_expanded.xml" value="0.278125" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/janssen_expanded.xml" value="0.13500506585612967" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/janssen_fil_expanded.xml" value="0.278125" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/moderna_expanded.xml" value="0.13500506585612967" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/moderna_fil_expanded.xml" value="0.278125" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/novavax_expanded.xml" value="0.13500506585612967" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/novavax_fil_expanded.xml" value="0.278125" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/pfizer_expanded.xml" value="0.33" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/pfizer_fil_expanded.xml" value="0.278125" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/sinovac_expanded.xml" value="0.13500506585612967" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/sinovac_fil_expanded.xml" value="0.278125" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/sputnik_expanded.xml" value="0.13500506585612967" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/r2y-04_app/app/src/main/res/layout/sputnik_fil_expanded.xml" value="0.278125" />
         <entry key="app/src/main/res/drawable/correct_option_bg.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/default_option_bg.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/incorrect_option_bg.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/selected_option_bg.xml" value="0.1645" />
         <entry key="app/src/main/res/layout/activity_fact_check.xml" value="0.45380401611328125" />
-        <entry key="app/src/main/res/layout/activity_faq_fil.xml" value="0.14628623188405798" />
+        <entry key="app/src/main/res/layout/activity_factcheck.xml" value="0.3355017399442369" />
+        <entry key="app/src/main/res/layout/activity_factcheck_fil.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_faq_fil.xml" value="0.13703703703703704" />
         <entry key="app/src/main/res/layout/activity_faqs.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_home_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_fil_home.xml" value="0.4050445556640626" />
+        <entry key="app/src/main/res/layout/activity_funfacts.xml" value="0.5078674316406251" />
+        <entry key="app/src/main/res/layout/activity_funfacts_fil.xml" value="0.32394104003906254" />
+        <entry key="app/src/main/res/layout/activity_home_screen.xml" value="0.15481171548117154" />
         <entry key="app/src/main/res/layout/activity_inter_active.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_inter_fil.xml" value="0.315447998046875" />
         <entry key="app/src/main/res/layout/activity_interactive_page.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22916666666666666" />
+        <entry key="app/src/main/res/layout/activity_ph_fil.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_polls.xml" value="0.23125" />
-        <entry key="app/src/main/res/layout/activity_quiz.xml" value="0.24998779296875" />
+        <entry key="app/src/main/res/layout/activity_quiz.xml" value="0.3073577880859375" />
         <entry key="app/src/main/res/layout/activity_quiz_result.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_splashscreen2.xml" value="0.18614130434782608" />
         <entry key="app/src/main/res/layout/activity_splashscreen3.xml" value="0.24322916666666666" />
@@ -53,7 +31,9 @@
         <entry key="app/src/main/res/layout/activity_splashscreen5.xml" value="0.24322916666666666" />
         <entry key="app/src/main/res/layout/activity_user_guide.xml" value="0.16168478260869565" />
         <entry key="app/src/main/res/layout/activity_vaxx_info.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_vaxx_ph.xml" value="0.25925925925925924" />
+        <entry key="app/src/main/res/layout/activity_vaxx_ph.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/astra_expanded.xml" value="0.6345373844754869" />
+        <entry key="app/src/main/res/layout/fil_funfacts.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/moderna_expanded.xml" value="0.48196475263954947" />
       </map>
     </option>

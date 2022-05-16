@@ -17,6 +17,7 @@ class quiz_result : AppCompatActivity() {
         val correctAnswers = intent.getIntExtra(Constants.CORRECT_ANSWERS, 0)
 
         if (engFilCounter.counter == "english") {
+            findViewById<TextView>(R.id.result).text = "Result"
             if (correctAnswers == 10) {
                 findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_perfect)
                 findViewById<TextView>(R.id.nice_work).text = "PERFECT! Amazing work!"
@@ -47,6 +48,7 @@ class quiz_result : AppCompatActivity() {
             }
         }
         else if (engFilCounter.counter == "filipino") {
+            findViewById<TextView>(R.id.result).text = "Resulta"
             if (correctAnswers == 10) {
                 findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_perfect)
                 findViewById<TextView>(R.id.nice_work).text = "MAHUSAY! Ang galing mo!"
