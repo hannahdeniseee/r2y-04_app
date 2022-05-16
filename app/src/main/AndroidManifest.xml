@@ -11,10 +11,12 @@
         android:theme="@style/Theme.CovidVaxxPH">
         <activity
             android:name=".factcheck_fil"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".funfacts_fil"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".faq_fil"
             android:exported="false"
