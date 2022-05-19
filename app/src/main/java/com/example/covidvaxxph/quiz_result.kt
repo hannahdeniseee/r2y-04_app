@@ -19,23 +19,23 @@ class quiz_result : AppCompatActivity() {
         if (engFilCounter.counter == "english") {
             findViewById<TextView>(R.id.result).text = "Result"
             if (correctAnswers == 10) {
-                findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_perfect)
+                findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_perfect2)
                 findViewById<TextView>(R.id.nice_work).text = "PERFECT! Amazing work!"
             }
             else if (correctAnswers in 8..9) {
-                findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_great)
+                findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_great2)
                 findViewById<TextView>(R.id.nice_work).text = "You're almost there! Great work!"
             }
             else if (correctAnswers in 5..7) {
-                findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_mid)
+                findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_mid2)
                 findViewById<TextView>(R.id.nice_work).text = "Maybe you need a little more reviewing, but good job!"
             }
             else if (correctAnswers in 2..4) {
-                findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_low)
+                findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_low2)
                 findViewById<TextView>(R.id.nice_work).text = "I know you can do better, aim for higher!"
             }
             else if (correctAnswers in 0..1) {
-                findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_fail)
+                findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_fail2)
                 findViewById<TextView>(R.id.nice_work).text = "Read and analyze more, then try again!"
             }
 
@@ -50,23 +50,23 @@ class quiz_result : AppCompatActivity() {
         else if (engFilCounter.counter == "filipino") {
             findViewById<TextView>(R.id.result).text = "Resulta"
             if (correctAnswers == 10) {
-                findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_perfect)
+                findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_perfect2)
                 findViewById<TextView>(R.id.nice_work).text = "MAHUSAY! Ang galing mo!"
             }
             else if (correctAnswers in 8..9) {
-                findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_great)
+                findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_great2)
                 findViewById<TextView>(R.id.nice_work).text = "Malapit na! Kaya mo 'yan!"
             }
             else if (correctAnswers in 5..7) {
-                findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_mid)
+                findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_mid2)
                 findViewById<TextView>(R.id.nice_work).text = "Siguro kailangan mo pang sumuri, pero magaling parin!"
             }
             else if (correctAnswers in 2..4) {
-                findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_low)
+                findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_low2)
                 findViewById<TextView>(R.id.nice_work).text = "Alam ko mas mataas kaya mong makuha, galingan mo!"
             }
             else if (correctAnswers in 0..1) {
-                findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_fail)
+                findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_fail2)
                 findViewById<TextView>(R.id.nice_work).text = "Magbasa ka ulit, tapos subukin mo muli!"
             }
 
