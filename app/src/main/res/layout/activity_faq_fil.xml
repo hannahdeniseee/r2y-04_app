@@ -13,28 +13,33 @@
         tools:context=".faq_fil">
 
         <ImageButton
-        android:id="@+id/backButton"
-        android:layout_width="65dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="45dp"
-        android:layout_marginEnd="319dp"
-        app:srcCompat="@drawable/fact_1_btn" />
+            android:id="@+id/backButton"
+            android:layout_width="65dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/fact_1_btn"
+            tools:ignore="MissingConstraints" />
 
         <ImageView
             android:id="@+id/tanong1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="36dp"
             app:layout_constraintTop_toTopOf="@+id/backButton"
-            app:srcCompat="@drawable/tanong1" />
+            app:srcCompat="@drawable/tanong1"
+            tools:layout_editor_absoluteX="0dp" />
 
         <ImageView
             android:id="@+id/tanong2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="450dp"
+            android:layout_height="240dp"
+            android:layout_marginTop="408dp"
             app:layout_constraintTop_toTopOf="@+id/tanong1"
-            app:srcCompat="@drawable/tanong2" />
+            app:srcCompat="@drawable/tanong2"
+            tools:layout_editor_absoluteX="0dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
