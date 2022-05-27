@@ -34,8 +34,16 @@
         <entry key="app/src/main/res/layout/activity_vaxx_info.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_vaxx_ph.xml" value="0.1" />
         <entry key="app/src/main/res/layout/astra_expanded.xml" value="0.6345373844754869" />
+        <entry key="app/src/main/res/layout/astra_fil_expanded.xml" value="0.38095238095238093" />
+        <entry key="app/src/main/res/layout/bharat_fil_expanded.xml" value="0.45" />
         <entry key="app/src/main/res/layout/fil_funfacts.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/janssen_fil_expanded.xml" value="0.24583333333333332" />
         <entry key="app/src/main/res/layout/moderna_expanded.xml" value="0.48196475263954947" />
+        <entry key="app/src/main/res/layout/moderna_fil_expanded.xml" value="0.24583333333333332" />
+        <entry key="app/src/main/res/layout/novavax_fil_expanded.xml" value="0.24583333333333332" />
+        <entry key="app/src/main/res/layout/pfizer_fil_expanded.xml" value="0.24583333333333332" />
+        <entry key="app/src/main/res/layout/sinovac_fil_expanded.xml" value="0.17074275362318841" />
+        <entry key="app/src/main/res/layout/sputnik_fil_expanded.xml" value="0.24583333333333332" />
       </map>
     </option>
   </component>
