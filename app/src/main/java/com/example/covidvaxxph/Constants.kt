@@ -118,7 +118,7 @@ object Constants {
             val question1 = Question(1, "Ilang tatak ng bakuna na laban sa COVID-19 ay maaaring makuha sa Pilipinas?", "7", "3", "4", "5", 1)
             questionsList.add(question1)
 
-            val question2 = Question(2, "Ang mga sumusunod na tatak ng bakuna laban sa COVID-19 ay kailangan ng 2 dosis maliban sa...", "Moderna", "Sinovac", "Janssen", "Pfizer", 3)
+            val question2 = Question(2, "Ang mga sumusunod na tatak ng bakuna laban sa COVID-19 ay kailangan ng 2 goses maliban sa...", "Moderna", "Sinovac", "Janssen", "Pfizer", 3)
             questionsList.add(question2)
 
             // option 2 can be translated better, option 3 translated "smallpox" to "bulutong" idk what that is lol
@@ -142,7 +142,7 @@ object Constants {
             questionsList.add(question7)
 
             // option 1 not sure if sapilitan is ok, option 2 not sure if viral vector can be translated, option 4 can probably be translated better
-            val question8 = Question(8, "Alin sa sumusunod ay totoo?", "Ang pagbabakuna laban sa COVID-19 ay sapilitan.", "Ang Pfizer ay isang Viral Vector na bakuna.", "12 na linggo ang pagitan ng dosis ng bakunang Sinovac.", "Ang isang posibleng side-effect ng mga bakuna laban sa COVID-19 ay pananakit sa lugar ng iniksyon.", 4)
+            val question8 = Question(8, "Alin sa sumusunod ay totoo?", "Ang pagbabakuna laban sa COVID-19 ay sapilitan.", "Ang Pfizer ay isang Viral Vector na bakuna.", "12 na linggo ang pagitan ng goses ng bakunang Sinovac.", "Ang isang posibleng side-effect ng mga bakuna laban sa COVID-19 ay pananakit sa lugar ng iniksyon.", 4)
             questionsList.add(question8)
 
             // options 1-2 can be translated better (tnx google)
