@@ -115,34 +115,34 @@ object Constants {
             questionsList.add(question10)
         }
         else if (engFilCounter.counter == "filipino") {
-            val question1 = Question(1, "Ilang tatak ng bakuna na laban sa COVID-19 ay maaaring makuha sa Pilipinas?", "7", "3", "4", "5", 1)
+            val question1 = Question(1, "Ilang tatak ng bakuna na laban sa COVID-19 ang maaaring makuha sa Pilipinas?", "7", "3", "4", "5", 1)
             questionsList.add(question1)
 
             val question2 = Question(2, "Ang mga sumusunod na tatak ng bakuna laban sa COVID-19 ay kailangan ng 2 doses maliban sa...", "Moderna", "Sinovac", "Janssen", "Pfizer", 3)
             questionsList.add(question2)
 
             // option 2 can be translated better, option 3 translated "smallpox" to "bulutong" idk what that is lol
-            val question3 = Question(3, "Alin sa sumusunod ay HINDI totoo?", "Ang 5G ay hindi sanhi ng COVID-19",  "Ang taong nabakunahan ay may 0% na pagkakataon na makuha ang COVID-19", "Ang unang bakuna ay ginawa upang maiwasan ang pagkalat ng bulutong.", "May mga bakuna na maaaring inumin", 2)
+            val question3 = Question(3, "Alin sa sumusunod ang HINDI totoo?", "Ang 5G ay hindi sanhi ng COVID-19",  "Ang taong nabakunahan na ay may 0% tiyansang na makakuha ang COVID-19", "Ang unang bakuna ay ginawa upang maiwasan ang pagkalat ng bulutong.", "May mga bakuna na maaaring inumin", 2)
             questionsList.add(question3)
 
             // question words [immune system, virus and bacteria] and all options are not translated
-            val question4 = Question(4, "Ano ang ginagawa ng ng ating immune system para labanin ang virus at bacteria?", "antibodies", "probodies", "antibiotics", "probiotics", 1)
+            val question4 = Question(4, "Ano ang ginagawa ng ating immune system para labanan ang birus at bacteria?", "antibodies", "probodies", "antibiotics", "probiotics", 1)
             questionsList.add(question4)
 
             // option 2 what does happy mean HELP, option 4 can be translated better
-            val question5 = Question(5, "Punan ang blangko: Ang mga bakuna ay mayroong maliit na halaga ng ______ na bersyon ng virus.", "iOS 3.0", "masaya", "mapanganib", "hindi makakasama", 4)
+            val question5 = Question(5, "Punan ang patlang: Ang mga bakuna ay mayroong maliit na halaga ng ______ na bersyon ng birus.", "iOS 3.0", "masaya", "mapanganib", "hindi makakasama", 4)
             questionsList.add(question5)
 
             // question word [average] is not translated
-            val question6 = Question(6, "Alin sa mga sumusunod na tatak ng bakuna ang may pinakamataas na average na bisa?", "Janssen", "Pfizer", "Bharat", "Sinovac", 2)
+            val question6 = Question(6, "Alin sa mga sumusunod na tatak ng bakuna ang may pinakamataas na average ang bisa?", "Janssen", "Pfizer", "Bharat", "Sinovac", 2)
             questionsList.add(question6)
 
             // options 2-4 could be translated better
-            val question7 = Question(7, "Paano ipinagtatanggol ng immune system ang katawan mula sa isang virus na natagpo na nito noon?", "Naaalala ng microchip ng iyong katawan kung paano labanan ang sakit.", "Naaalala ng mga antibiotic kung paano labanan ang sakit.", "Naaalala ng mga antibody kung paano labanan ang sakit.", "Naaalala ng mga probiotic kung paano labanan ang sakit.", 3)
+            val question7 = Question(7, "Paano ipinagtatanggol ng immune system ang katawan mula sa isang virus na nakuha na nito noon?", "Naaalala ng microchip ng iyong katawan kung paano labanan ang sakit.", "Naaalala ng mga antibiotic kung paano labanan ang sakit.", "Naaalala ng mga antibody kung paano labanan ang sakit.", "Naaalala ng mga probiotic kung paano labanan ang sakit.", 3)
             questionsList.add(question7)
 
             // option 1 not sure if sapilitan is ok, option 2 not sure if viral vector can be translated, option 4 can probably be translated better
-            val question8 = Question(8, "Alin sa sumusunod ay totoo?", "Ang pagbabakuna laban sa COVID-19 ay sapilitan.", "Ang Pfizer ay isang Viral Vector na bakuna.", "12 na linggo ang pagitan ng doses ng bakunang Sinovac.", "Ang isang posibleng side-effect ng mga bakuna laban sa COVID-19 ay pananakit sa lugar ng iniksyon.", 4)
+            val question8 = Question(8, "Alin sa sumusunod ang totoo?", "Ang pagbabakuna laban sa COVID-19 ay sapilitan.", "Ang Pfizer ay isang Viral Vector na bakuna.", "12 linggo ang pagitan ng doses ng bakunang Sinovac.", "Ang isang posibleng side-effect ng mga bakuna laban sa COVID-19 ay pananakit sa lugar ng ineksyon.", 4)
             questionsList.add(question8)
 
             // options 1-2 can be translated better (tnx google)
