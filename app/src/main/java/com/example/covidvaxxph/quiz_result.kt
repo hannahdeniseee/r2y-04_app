@@ -63,7 +63,7 @@ class quiz_result : AppCompatActivity() {
             }
             else if (correctAnswers in 2..4) {
                 findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_low2)
-                findViewById<TextView>(R.id.nice_work).text = "Alam ko mas mataas kaya mong makuha, galingan mo!"
+                findViewById<TextView>(R.id.nice_work).text = "Alam ko mas mataas ang kaya mong makuha, galingan mo!"
             }
             else if (correctAnswers in 0..1) {
                 findViewById<ImageView>(R.id.congrats).setImageResource(R.drawable.qresult_fail2)
