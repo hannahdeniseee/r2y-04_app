@@ -54,7 +54,7 @@
                 android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/fil_inter_funfactbtn"/>
+                app:srcCompat="@drawable/fil_inter_funfactsbtn_real"/>
 
             <ImageButton
                 android:id="@+id/checkButton"
