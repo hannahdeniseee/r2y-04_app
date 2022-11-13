@@ -10,12 +10,28 @@ import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
+import com.denzcoskun.imageslider.ImageSlider
+import com.denzcoskun.imageslider.constants.ScaleTypes
+import com.denzcoskun.imageslider.models.SlideModel
 
 class vaxx_info : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_vaxx_info)
 
+        val imageSlider = findViewById<ImageSlider>(R.id.imageSlider)
+        val imageList = ArrayList<SlideModel>()
+
+        imageList.add(SlideModel(imageUrl = "https://github.com/hannahdeniseee/r2y-04_app/blob/master/app/src/main/res/drawable/vaxx_info1.png?raw=true", title = null ))
+        imageList.add(SlideModel(imageUrl = "https://github.com/hannahdeniseee/r2y-04_app/blob/master/app/src/main/res/drawable/vaxx_info2.png?raw=true", title = null ))
+        imageList.add(SlideModel(imageUrl = "https://github.com/hannahdeniseee/r2y-04_app/blob/master/app/src/main/res/drawable/vaxx_info3.png?raw=true", title = null ))
+        imageList.add(SlideModel(imageUrl = "https://github.com/hannahdeniseee/r2y-04_app/blob/master/app/src/main/res/drawable/vaxx_info4.png?raw=true", title = null ))
+        imageList.add(SlideModel(imageUrl = "https://github.com/hannahdeniseee/r2y-04_app/blob/master/app/src/main/res/drawable/type_1.png?raw=true", title = null ))
+        imageList.add(SlideModel(imageUrl = "https://github.com/hannahdeniseee/r2y-04_app/blob/master/app/src/main/res/drawable/type_2.png?raw=true", title = null ))
+        imageList.add(SlideModel(imageUrl = "https://github.com/hannahdeniseee/r2y-04_app/blob/master/app/src/main/res/drawable/type_3.png?raw=true", title = null ))
+        imageList.add(SlideModel(imageUrl = "https://github.com/hannahdeniseee/r2y-04_app/blob/master/app/src/main/res/drawable/type_4.png?raw=true", title = null ))
+
+        imageSlider.setImageList(imageList, ScaleTypes.FIT)
         //Toolbar toolbar = findViewById(R.id.toolbar)
         val mtoolbar = findViewById<View>(R.id.toolbar) as Toolbar
         setSupportActionBar(mtoolbar)
