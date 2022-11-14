@@ -7,12 +7,31 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
+import android.widget.Toolbar
 import androidx.appcompat.widget.Toolbar
+import com.denzcoskun.imageslider.ImageSlider
+import com.denzcoskun.imageslider.constants.ScaleTypes
+import com.denzcoskun.imageslider.models.SlideModel
 
 class info_fil : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_info_fil)
+        setContentView(R.layout.activity_vaxx_info)
+
+        val imageSlider = findViewById<ImageSlider>(R.id.imageSlider)
+        val imageList = ArrayList<SlideModel>()
+
+        imageList.add(SlideModel(R.drawable.fil_how1))
+        imageList.add(SlideModel(R.drawable.fil_how2))
+        imageList.add(SlideModel(R.drawable.fil_how3))
+        imageList.add(SlideModel(R.drawable.fil_how4))
+        imageList.add(SlideModel(R.drawable.fil_type1))
+        imageList.add(SlideModel(R.drawable.fil_type2))
+        imageList.add(SlideModel(R.drawable.fil_type3))
+        imageList.add(SlideModel(R.drawable.fil_type4))
+
+        imageSlider.setImageList(imageList, ScaleTypes.FIT)
+        //Toolbar toolbar = findViewById(R.id.toolbar)
         val mtoolbar = findViewById<View>(R.id.toolbar) as Toolbar
         setSupportActionBar(mtoolbar)
 
