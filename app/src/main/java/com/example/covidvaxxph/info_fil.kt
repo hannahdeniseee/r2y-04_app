@@ -6,12 +6,11 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import android.widget.Toast
-import android.widget.Toolbar
 import androidx.appcompat.widget.Toolbar
 import com.denzcoskun.imageslider.ImageSlider
 import com.denzcoskun.imageslider.constants.ScaleTypes
 import com.denzcoskun.imageslider.models.SlideModel
+import android.widget.Toast as Toast1
 
 class info_fil : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,29 +44,29 @@ class info_fil : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val id = item?.itemId
         if (id == R.id.home_navbutton) {
-            Toast.makeText(this, item.title.toString(), Toast.LENGTH_LONG).show()
+            Toast1.makeText(this, item.title.toString(), Toast1.LENGTH_LONG).show()
             val intent = Intent(this, fil_home::class.java)
             startActivity(intent)
         }
 
         if (id == R.id.inter_navbutton) {
-            Toast.makeText(this, item.title.toString(), Toast.LENGTH_LONG).show()
+            Toast1.makeText(this, item.title.toString(), Toast1.LENGTH_LONG).show()
             val intent = Intent(this, inter_fil::class.java)
             startActivity(intent)
         }
         if (id == R.id.ph_navbutton) {
-            Toast.makeText(this, item.title.toString(), Toast.LENGTH_LONG).show()
+            Toast1.makeText(this, item.title.toString(), Toast1.LENGTH_LONG).show()
             val intent = Intent(this, ph_fil::class.java)
             startActivity(intent)
         }
         if (id == R.id.user_navbutton){
-            Toast.makeText(this, item.title.toString(), Toast.LENGTH_LONG).show()
+            Toast1.makeText(this, item.title.toString(), Toast1.LENGTH_LONG).show()
             val intent = Intent(this, user_fil::class.java)
             startActivity(intent)
         }
 
         if (id == R.id.info_navbutton){
-            Toast.makeText(this, item.title.toString(), Toast.LENGTH_LONG).show()
+            Toast1.makeText(this, item.title.toString(), Toast1.LENGTH_LONG).show()
             val intent = Intent(this, info_fil::class.java)
             startActivity(intent)
         }
