@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bg_color"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-416dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/reg_step1"
+                android:layout_width="match_parent"
+                android:layout_height="490dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/bg_color"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/reg_steps_1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/reg_stepbtnA"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="13dp"
+                    android:background="@color/bg_color"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/reg_steps_btn_a" />
+
+                <ImageButton
+                    android:id="@+id/reg_stepbtnB"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    android:background="@color/bg_color"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/reg_steps_btn_b" />
+
+                <ImageButton
+                    android:id="@+id/reg_stepbtnC"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@color/bg_color"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/reg_steps_btn_c" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/reg_step2"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/bg_color"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/reg_steps_2" />
+
+            <ImageView
+                android:id="@+id/reg_step3"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="390dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/bg_color"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/reg_steps_3" />
+
+            <ImageButton
+                android:id="@+id/reg_stepbtnDOH"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/bg_color"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/reg_steps_btn_doh" />
+
+            <ImageView
+                android:id="@+id/reg_step4"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="70dp"
+                android:background="@color/bg_color"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/reg_steps_4" />
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbar_color"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        tools:layout_editor_absoluteX="0dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
