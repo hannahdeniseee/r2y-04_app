@@ -7,11 +7,10 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent">
 
-
     <com.denzcoskun.imageslider.ImageSlider
         android:id="@+id/imageSlider"
-        android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_width="411dp"
+        android:layout_height="666dp"
         app:iss_auto_cycle="true"
         app:iss_corner_radius="5"
         app:iss_delay="5"
@@ -20,9 +19,10 @@
         app:iss_placeholder="@android:color/darker_gray"
         app:iss_selected_dot="@drawable/default_selected_dot"
         app:iss_unselected_dot="@drawable/default_unselected_dot"
+        app:layout_constraintBottom_toTopOf="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="94dp" />
+        tools:layout_editor_absoluteX="0dp" />
 
     <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
