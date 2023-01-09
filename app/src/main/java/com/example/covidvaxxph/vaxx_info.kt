@@ -31,6 +31,7 @@ class vaxx_info : AppCompatActivity() {
         imageList.add(SlideModel(R.drawable.v2_vaxx_type_3))
         imageList.add(SlideModel(R.drawable.v2_vaxx_type_4))
         imageList.add(SlideModel(R.drawable.v2_vaxx_type_5))
+        imageList.add(SlideModel(R.drawable.v2_vaxx_type_6))
 
         imageSlider.setImageList(imageList, ScaleTypes.FIT)
         //Toolbar toolbar = findViewById(R.id.toolbar)
