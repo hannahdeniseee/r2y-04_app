@@ -12,7 +12,7 @@
         android:id="@+id/imageSlider"
         android:layout_width="match_parent"
         android:layout_height="500dp"
-        app:iss_auto_cycle="true"
+        app:iss_auto_cycle="false"
         app:iss_corner_radius="5"
         app:iss_delay="5"
         app:iss_error_image="@android:color/darker_gray"
