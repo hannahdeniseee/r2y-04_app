@@ -34,9 +34,15 @@ class fil_home : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val imageButton6 = findViewById<ImageButton>(R.id.imageButton6)
+        imageButton6.setOnClickListener{
+            val intent = Intent(this,inter_fil::class.java)
+            startActivity(intent)
+        }
+
         val imageButton5 = findViewById<ImageButton>(R.id.imageButton5)
         imageButton5.setOnClickListener{
-            val intent = Intent(this,fil_home::class.java)
+            val intent = Intent(this,home_Screen::class.java)
             startActivity(intent)
         }
 
