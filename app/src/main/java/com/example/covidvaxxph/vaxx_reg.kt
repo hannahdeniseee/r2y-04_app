@@ -8,7 +8,7 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.ImageButton
 import android.widget.Toast
-import androidx.appcompat.widget.Toolbar
+import androidx.appcompat.widget.Toolbar//
 
 class vaxx_reg : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
