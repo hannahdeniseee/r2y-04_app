@@ -12,11 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CovidVaxxPH">
         <activity
-            android:name=".reg_btn_A_expanded"
-            android:exported="false" />
-        <activity
             android:name=".vaxx_reg"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar"/>
         <activity
             android:name=".factcheck_fil"
             android:exported="false"
