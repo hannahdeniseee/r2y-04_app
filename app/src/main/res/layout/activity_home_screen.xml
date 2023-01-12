@@ -87,7 +87,7 @@
                 android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/btn_home_inter"/>
+                app:srcCompat="@drawable/btn_home_guide"/>
 
             <ImageButton
                 android:id="@+id/imageButton5"
