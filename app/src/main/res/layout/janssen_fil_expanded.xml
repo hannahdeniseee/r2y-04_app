@@ -5,8 +5,8 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:layout_width="700px"
-        android:layout_height="1240px"
+        android:layout_width="800px"
+        android:layout_height="1400px"
         >
 
         <ImageView
@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/janssenfil" />
+            app:srcCompat="@drawable/v2_janssen_fil_expanded" />
 
     </LinearLayout>
 
