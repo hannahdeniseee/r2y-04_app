@@ -17,7 +17,7 @@ import com.denzcoskun.imageslider.models.SlideModel
 class doc_says : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_doc_says)
+        setContentView(R.layout.activity_doc_says)//
 
         val imageSlider = findViewById<ImageSlider>(R.id.imageSlider)
         val imageList = ArrayList<SlideModel>()

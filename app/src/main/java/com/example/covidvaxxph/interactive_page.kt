@@ -44,7 +44,7 @@ class interactive_page : AppCompatActivity() {
         val MDButton = findViewById<ImageButton>(R.id.doc_says_btn)
         MDButton.setOnClickListener{
             val intent = Intent(this, doc_says::class.java)
-            startActivity(intent)
+            startActivity(intent)//
         }
     }
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
