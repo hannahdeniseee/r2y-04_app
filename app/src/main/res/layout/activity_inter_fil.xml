@@ -23,9 +23,10 @@
                 android:id="@+id/quizButton"
                 android:layout_gravity="center"
                 android:layout_width="315dp"
-                android:layout_height="175dp"
+                android:layout_height="145dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="79dp"
+                android:layout_marginBottom="15dp"
                 android:layout_marginEnd="33dp"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
@@ -34,9 +35,8 @@
             <ImageButton
                 android:id="@+id/faqButton"
                 android:layout_width="315dp"
-                android:layout_height="190dp"
+                android:layout_height="145dp"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="24dp"
                 android:layout_marginEnd="33dp"
                 android:layout_marginBottom="15dp"
                 android:layout_gravity="center"
@@ -47,7 +47,7 @@
             <ImageButton
                 android:id="@+id/funFactsButton"
                 android:layout_width="315dp"
-                android:layout_height="190dp"
+                android:layout_height="145dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginEnd="33dp"
                 android:layout_marginBottom="15dp"
@@ -59,14 +59,26 @@
             <ImageButton
                 android:id="@+id/checkButton"
                 android:layout_width="315dp"
-                android:layout_height="190dp"
+                android:layout_height="145dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="33dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:background="@color/bg_color"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/fil_inter_factbtn" />
+
+            <ImageButton
+                android:id="@+id/doc_says_btn"
+                android:layout_width="315dp"
+                android:layout_height="145dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginEnd="33dp"
                 android:layout_marginBottom="70dp"
                 android:layout_gravity="center"
                 android:background="@color/bg_color"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/fil_inter_factbtn" />
+                app:srcCompat="@drawable/fil_inter_docsaysbtn" />
         </LinearLayout>
 
     </ScrollView>

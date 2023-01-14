@@ -41,6 +41,12 @@ class inter_fil : AppCompatActivity() {
             val intent = Intent(this, factcheck_fil::class.java)
             startActivity(intent)
         }
+
+        val MDButton = findViewById<ImageButton>(R.id.doc_says_btn)
+        MDButton.setOnClickListener{
+            val intent = Intent(this, docsays_fil::class.java)
+            startActivity(intent)//
+        }
     }
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_bar,menu)
