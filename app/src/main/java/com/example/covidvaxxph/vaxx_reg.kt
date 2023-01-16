@@ -20,7 +20,7 @@ class vaxx_reg : AppCompatActivity() {
         //A Window
         val reg_stepbtnA = findViewById<View>(R.id.reg_stepbtnA)
         reg_stepbtnA.setOnClickListener{
-            var expanded = pfizer_expanded()
+            var expanded = reg_expanded_a()
 
             expanded.show(supportFragmentManager, "customDialog")
         }
@@ -28,7 +28,7 @@ class vaxx_reg : AppCompatActivity() {
         //B Window
         val reg_stepbtnB = findViewById<View>(R.id.reg_stepbtnB)
         reg_stepbtnB.setOnClickListener{
-            var expanded = astra_expanded()
+            var expanded = reg_expanded_b()
 
             expanded.show(supportFragmentManager, "customDialog")
         }
@@ -36,7 +36,7 @@ class vaxx_reg : AppCompatActivity() {
         //C Window
         val reg_stepbtnC = findViewById<View>(R.id.reg_stepbtnC)
         reg_stepbtnC.setOnClickListener{
-            var expanded = moderna_expanded()
+            var expanded = reg_expanded_c()
 
             expanded.show(supportFragmentManager, "customDialog")
         }
