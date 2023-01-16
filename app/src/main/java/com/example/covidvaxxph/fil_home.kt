@@ -36,7 +36,7 @@ class fil_home : AppCompatActivity() {
 
         val imageButton6 = findViewById<ImageButton>(R.id.imageButton6)
         imageButton6.setOnClickListener{
-            val intent = Intent(this,inter_fil::class.java)
+            val intent = Intent(this,vaxx_fil_reg::class.java)
             startActivity(intent)
         }
 
